@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">ConnectingIndiaDigitally</string>
+    <string name="menu_action_share">Share</string>
+    <string name="menu_action_about_us">About Us</string>
+
+    <string name="FCM_PREF">com.example.w10.loginregister2.fcm_pref</string>
+    <string name="FCM_TOKEN">com.example.w10.loginregister2.fcm_token</string>
+
+    <string name="title">Pradhan Mantri Jivan Jyoti Yojna</string>
+
+    <string name="title1">What do I get if I apply?</string>
+    <string name="title2">What documents I need?</string>
+    <string name="title3">When Should I apply?</string>
+    <string name="title4">Where should you apply?</string>
+    <string name="title5">Minimum Age</string>
+    <string name="title6">Maximum Age</string>
+
+
+    <string name="description1">Life insurance scheme by Government.Rs 330 per annum.\nIt will be auto debited in one installment.\nRs 2 lakh in case of death for any reason. </string>
+    <string name="description2">Bank Account</string>
+    <string name="description3">Every year</string>
+    <string name="description4">Bank </string>
+
+    <string name="ttitle">Pradhan Mantri Suraksha Bima Yojna</string>
+    <string name="ttitle1">What do I get if I apply?</string>
+    <string name="ttitle2">What documents I need?</string>
+    <string name="ttitle3">When Should I apply?</string>
+    <string name="ttitle4">Where should you apply?</string>
+    <string name="ttitle5">Minimum Age</string>
+    <string name="ttitle6">Maximum Age</string>
+
+    <string name="ddescription1">For accidental death and full disability of Rs 2 Lakh and for partial disability Rs 1 Lakh </string>
+    <string name="ddescription2">Aadhar number linked to the bank account</string>
+    <string name="ddescription3">1st June every year</string>
+    <string name="ddescription4">Bank </string>
+
+    <string name="agtitle">Pradhan Mantri Fasal Bima Yojna (Prime Minister\'s Crop Insurance Scheme)</string>
+    <string name="agtitle1">What do I get if I apply?</string>
+    <string name="agtitle3">When Should I apply?</string>
+    <string name="agtitle4">Where should you apply?</string>
+    <string name="agtitle5">Minimum Age</string>
+
+    <string name="agdescription1">Crop Insurance Scheme to provide efficient insurance and financial support to farmers. It also covers local calamities.</string>
+    <string name="agdescription3">Anytime</string>
+    <string name="agdescription4">Online Site </string>
+
+    <string name="agttitle">Rashtriya Krishi Vikas Yojna</string>
+    <string name="agttitle1">What do I get if I apply?</string>
+    <string name="agttitle3">When Should I apply?</string>
+    <string name="agttitle4">Where should you apply?</string>
+    <string name="agttitle5">Minimum Age</string>
+
+    <string name="agddescription1">Individuals whose Jan Dhan Account complrtes 6 months are eligible to obtain loans upto Rs 5000.</string>
+    <string name="agddescription3">Anytime</string>
+    <string name="agddescription4">Online Site </string>
+
+    <string name="fititle">Pradhan Mantri Jan Dhan Yojna</string>
+    <string name="fititle1">What do I get if I apply?</string>
+    <string name="fititle4">Where should you apply?</string>
+    <string name="fititle5">Minimum Age</string>
+
+    <string name="fidescription1">Ensure access to financial and banking services\nAccount can be opened in any bank branch or Business Correspondent outlet\nAccounts can be opened with zero balance\nalso allows access to pension and insurance products\n
+    Also covers Accidental Insurance of RS 1 lakh</string>
+    <string name="fidescription2">Aadhar Card\nIf Aadhar card is not available then any other proof of identity like Pan card or Voter ID card</string>
+    <string name="fidescription4">Online Site </string>
+
+
+    <string name="hetitle">Rastriya Arogya Nidhi</string>
+
+    <string name="hetitle1">What do I get if I apply?</string>
+    <string name="hetitle2">What documents I need?</string>
+    <string name="hetitle3">When Should I apply?</string>
+    <string name="hetitle4">Where should you apply?</string>
+
+
+    <string name="hedescription1">Financial Assistance is provided to patients,living below poverty line and who suffering from major life threatening disease,to receive medical treatment.\nNo upper limit has been fixed for availing financial assistance under RAN. </string>
+    <string name="hedescription2">Application is prescribed format duly signed/stamped by the treating doctor and HOD and countersigned by the Medical Superintendent from the Government Hospital where the patient is receiving treatment.\nMonthly income of the patient.\nCopy of the BPL Ration Card.</string>
+    <string name="hedescription3">Anytime</string>
+    <string name="hedescription4">Online Site</string>
+
+    <string name="hettitle">Central Government Health Scheme</string>
+    <string name="hettitle1">What do I get if I apply?</string>
+
+    <string name="hettitle3">When Should I apply?</string>
+    <string name="hettitle4">Where should you apply?</string>
+
+
+    <string name="heddescription1">The dispensary services including domiciliary care. </string>
+
+    <string name="heddescription3">Anytime</string>
+    <string name="heddescription4">Online Site </string>
+
+    <string name="petitle">Atal Pention Yojna</string>
+    <string name="petitle1">What do I get if I apply?</string>
+    <string name="petitle2">What documents I need?</string>
+    <string name="petitle3">When Should I apply?</string>
+    <string name="petitle4">Where should you apply?</string>
+    <string name="petitle5">Minimum Age</string>
+    <string name="petitle6">Maximum Age</string>
+
+
+    <string name="pedescription1">It is a government-backed pension scheme in India targeted at the unorganised sector.\nFixed pension INR 1\,000 or 2\,000 or 4\,000 or 5\,000 on attaining the age of 60. </string>
+    <string name="pedescription2">Aadhar card linked to the bank account.\nMobile number to receive SMS confirmation. </string>
+    <string name="pedescription3">Anytime</string>
+    <string name="pedescription4">Bank </string>
+
+    <string name="pettitle">National Pension System</string>
+    <string name="pettitle1">What do I get if I apply?</string>
+    <string name="pettitle2">What documents I need?</string>
+    <string name="pettitle3">When Should I apply?</string>
+    <string name="pettitle4">Where should you apply?</string>
+    <string name="pettitle5">Minimum Age</string>
+    <string name="pettitle6">Maximum Age</string>
+
+    <string name="peddescription1">NPS aims to institute pension reforms and to inculcate the habit of saving for retirement amongst the citizens.\nThe subscriber will be allocated a unique Permanent Retirement Account Number (PRAN).\nThis unique account number will remain the same for the rest of subscriber\'s life.\nThis unique PRAN can be used from any location in India.</string>
+    <string name="peddescription2">Bank Account</string>
+    <string name="peddescription3">Anytime</string>
+    <string name="peddescription4">Online Site</string>
+
+    <string name="petttitle">Varishta Pension Bima Yojna</string>
+    <string name="petttitle1">What do I get if I apply?</string>
+    <string name="petttitle2">What documents I need?</string>
+    <string name="petttitle3">When Should I apply?</string>
+    <string name="petttitle4">Where should you apply?</string>
+    <string name="petttitle5">Minimum Age</string>
+    <string name="petttitle6">Maximum Age</string>
+
+    <string name="pedddescription1">Pension Scheme</string>
+    <string name="pedddescription2">Bank Account</string>
+    <string name="peddddescription3">Anytime</string>
+    <string name="pedddescription4">Online Site</string>
+
+
+    <string name="mititle">Pradhan Mantri Ujjwala Yojna</string>
+    <string name="mititle1">What do I get if I apply?</string>
+    <string name="mititle2">What documents I need?</string>
+    <string name="mititle3">When Should I apply?</string>
+    <string name="mititle4">Where should you apply?</string>
+
+    <string name="midescription1">Health Improvement\nLower rate gas connection\nReduce air pollution </string>
+    <string name="midescription2">BPL Card\nDetailed Address\nJan\-Dhan Bank Account\nAadhar number of all members of the household</string>
+    <string name="midescription3">Anytime</string>
+    <string name="midescription4">Online Site</string>
+
+
+    <string name="mitttitle">Stand Up India Scheme</string>
+    <string name="mitttitle1">What do I get if I apply?</string>
+    <string name="mitttitle2">What documents I need?</string>
+    <string name="mitttitle3">When Should I apply?</string>
+    <string name="mitttitle4">Where should you apply?</string>
+    <string name="mitttitle5">Minimum Age</string>
+
+
+    <string name="midddescription1">Promotes entrepreneurship by providing loans starting from Rs 10 lakhs upto Rs 100 lakhs</string>
+    <string name="midddescription2">Bank Account</string>
+    <string name="middddescription3">Anytime</string>
+    <string name="midddescription4">Bank</string>
+
+    <string name="edtitle">Central Sector Scheme of Scholarship for College and University Students</string>
+    <string name="eddescription1">The rate of scholarship are Rs 1000 at Graduation level for the first three years of college and University courses and Rs 2000 per month at Post\-Graduation level.Student pursuing professional courses would get Rs. 2000 per month in the 4\'th and 5\'th year.The scholarships would be paid for 10 months in an academic year </string>
+
+    <string name="eddescription3">Anytime</string>
+    <string name="eddescription4">Online Site</string>
+
+
+    <string name="entitle">Grant in Aid Scheme for Voluntary Agencies</string>
+    <string name="endescription1">National Afforestation and Eco Developement Board NAEB provides financial assistance to Non-Governmental Organisation NGOs Voluntary Agencies VAs for afforestation,tree planting and eco-development activities under a Central Sector Grants in Aid scheme.</string>
+
+    <string name="endescription3">Anytime</string>
+    <string name="endescription4">Online Site</string>
+
+</resources>

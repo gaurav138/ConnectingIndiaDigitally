@@ -1,0 +1,26 @@
+h3 {color : #900C3F;   font-family: 'open-sans-bold',AvenirNext-Medium, sans-serif; font-size: 100px;}
+
+* {  color : #fff; font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+	font-size: 18px;
+	text-align: center;}
+
+
+body {
+  
+  min-width: 300px;
+  height: 80vh;
+  margin: 20vh auto 0;
+ /*  background: linear-gradient(to left, #3b3b3b ,#000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+  color: #282828; */
+  background-image: url(india.jpg);
+}
+
+.description
+{
+	
+background: linear-gradient(to left, #43b29d , #000);
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+

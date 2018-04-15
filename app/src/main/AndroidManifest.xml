@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.w10.loginregister2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/icon3" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <!-- [END fcm_default_icon] -->
+
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".UserAreaActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".a" />
+        <activity android:name=".DisplayList" />
+        <activity android:name=".ImportantLinks" />
+
+        <service android:name=".FcmInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FcmMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".DisplaySchemes" />
+        <activity android:name=".AgriculturalSchemes" />
+        <activity android:name=".InsuranceSchemes" />
+        <activity android:name=".FinantialSchemes" />
+        <activity android:name=".HealthSchemes" />
+        <activity android:name=".PensionSchemes" />
+        <activity android:name=".MinoritiesSchemes" />
+        <activity android:name=".EducationSchemes" />
+        <activity android:name=".EnvironmentalSchemes" />
+        <activity android:name=".Project" />
+        <activity android:name=".MakeInIndia" />
+        <activity android:name=".DigitalIndia" />
+        <activity android:name=".SkillIndia" />
+        <activity android:name=".SwachhBharat" />
+        <activity android:name=".SectorsMakeInIndia" />
+        <activity android:name=".sbabout" />
+        <activity android:name=".sbhistory" />
+        <activity android:name=".sbobjectives" />
+        <activity android:name=".siabout" />
+        <activity android:name=".siobjective" />
+        <activity android:name=".sidevelope" />
+        <activity android:name=".dgabout" />
+        <activity android:name=".dgvision" />
+        <activity android:name=".dgapproach" />
+        <activity android:name=".dgmgt" />
+        <activity android:name=".makepolicies" />
+        <activity android:name=".makelive" />
+        <activity android:name=".makepnew" />
+        <activity android:name=".makepforeign" />
+        <activity android:name=".makepintel" />
+        <activity android:name=".makepnational" />
+        <activity android:name=".makesauto" />
+        <activity android:name=".makesbio" />
+        <activity android:name=".makeschem" />
+        <activity android:name=".makescons" />
+        <activity android:name=".makeselect" />
+        <activity android:name=".makesmining" />
+        <activity android:name=".makesit" />
+        <activity android:name=".makesspace" />
+        <activity android:name=".Jobs"></activity>
+    </application>
+
+</manifest>

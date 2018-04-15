@@ -1,0 +1,1301 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 366 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 633489 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 1417 1 17532 0 64
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2049 12337 2371 0 -1
+ciMethod java/lang/String lastIndexOf (I)I 2049 1 24331 0 -1
+ciMethod java/lang/String substring (II)Ljava/lang/String; 2049 1 5417 0 -1
+ciMethod java/lang/reflect/GenericDeclaration getTypeParameters ()[Ljava/lang/reflect/TypeVariable; 0 0 1 0 -1
+ciMethod java/lang/Class isAssignableFrom (Ljava/lang/Class;)Z 2049 1 256 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 817 1 29903 0 -1
+ciMethod java/lang/Class getClassLoader ()Ljava/lang/ClassLoader; 2065 1 6692 0 -1
+ciMethod java/lang/Class getClassLoader0 ()Ljava/lang/ClassLoader; 1025 1 128 0 0
+ciMethod java/lang/Class getTypeParameters ()[Ljava/lang/reflect/TypeVariable; 2049 1 7726 0 1440
+ciMethod java/lang/Class getGenericSuperclass ()Ljava/lang/reflect/Type; 81 1 327 0 -1
+ciMethod java/lang/Class getInterfaces ()[Ljava/lang/Class; 17 1 4591 0 -1
+ciMethod java/lang/Class getGenericInterfaces ()[Ljava/lang/reflect/Type; 49 1 383 0 -1
+ciMethod java/lang/Class getEnclosingMethod ()Ljava/lang/reflect/Method; 49 97 6 0 -1
+ciMethod java/lang/Class getEnclosingConstructor ()Ljava/lang/reflect/Constructor; 33 9 4 0 -1
+ciMethod java/lang/Class getDeclaringClass ()Ljava/lang/Class; 2049 1 3285 0 0
+ciMethod java/lang/Class getDeclaringClass0 ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Class getEnclosingClass ()Ljava/lang/Class; 1641 1 876 0 -1
+ciMethod java/lang/Class checkPackageAccess (Ljava/lang/ClassLoader;Z)V 0 0 51 0 0
+ciMethod java/lang/Class getGenericSignature0 ()Ljava/lang/String; 2057 1 257 0 -1
+ciMethod java/lang/Class getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 81 1 136 0 0
+ciMethod java/lang/Class getGenericInfo ()Lsun/reflect/generics/repository/ClassRepository; 2089 1 5415 0 192
+ciMethod java/lang/ClassLoader getParent ()Ljava/lang/ClassLoader; 145 1 991 0 -1
+ciMethod java/lang/ClassLoader getClassLoader (Ljava/lang/Class;)Ljava/lang/ClassLoader; 137 1 631 0 0
+ciMethod java/lang/ClassLoader checkClassLoaderPermission (Ljava/lang/ClassLoader;Ljava/lang/Class;)V 0 0 1 0 -1
+ciMethod java/lang/System getSecurityManager ()Ljava/lang/SecurityManager; 2049 1 30798 0 -1
+ciMethod java/lang/SecurityManager checkPackageAccess (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 1033 1 129 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;)V 1177 1 26874 0 -1
+ciMethod java/lang/ref/WeakReference <init> (Ljava/lang/Object;)V 2065 1 21520 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map remove (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map entrySet ()Ljava/util/Set; 0 0 1 0 -1
+ciMethod java/lang/reflect/Method getDeclaringClass ()Ljava/lang/Class; 1097 1 137 0 0
+ciMethod java/lang/reflect/Constructor getDeclaringClass ()Ljava/lang/Class; 1025 1 128 0 -1
+ciMethod java/lang/StringBuilder <init> (Ljava/lang/String;)V 2049 1 6388 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1409 1 138742 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 777 1 54253 0 -1
+ciMethod java/util/List isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/Set iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/AbstractMap <init> ()V 489 1 21392 0 32
+ciMethod sun/reflect/Reflection getCallerClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2073 1 59096 0 -1
+ciMethod java/util/HashMap <init> ()V 193 1 12490 0 32
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2145 1 22561 0 672
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2049 1 17051 0 -1
+ciMethod java/util/Map$Entry getValue ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map$Entry setValue (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Objects equals (Ljava/lang/Object;Ljava/lang/Object;)Z 2049 1 533 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod sun/reflect/generics/repository/ClassRepository <init> (Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V 89 1 131 0 -1
+ciMethod sun/reflect/generics/repository/ClassRepository make (Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/ClassRepository; 89 1 131 0 0
+ciMethod sun/reflect/generics/repository/GenericDeclRepository getTypeParameters ()[Ljava/lang/reflect/TypeVariable; 545 57 5194 0 1248
+ciMethod sun/reflect/generics/repository/AbstractRepository getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 1025 1 128 0 0
+ciMethod sun/reflect/generics/repository/AbstractRepository getTree ()Lsun/reflect/generics/tree/Tree; 1025 1 128 0 0
+ciMethod sun/reflect/generics/repository/AbstractRepository getReifier ()Lsun/reflect/generics/visitor/Reifier; 873 1 2208 0 0
+ciMethod sun/reflect/misc/ReflectUtil checkPackageAccess (Ljava/lang/Class;)V 513 1 5925 0 -1
+ciMethod sun/reflect/misc/ReflectUtil isAncestor (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z 0 0 1 0 -1
+ciMethod sun/reflect/misc/ReflectUtil needsPackageAccessCheck (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z 0 0 1 0 -1
+ciMethod sun/reflect/misc/ReflectUtil checkProxyPackageAccess (Ljava/lang/ClassLoader;[Ljava/lang/Class;)V 0 0 1 0 -1
+ciMethod sun/reflect/misc/ReflectUtil isNonPublicProxyClass (Ljava/lang/Class;)Z 1 1 5121 0 -1
+ciMethodData java/lang/Object <init> ()V 2 633489 orig 264 8 30 100 100 0 0 0 0 128 4 1 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 137 68 77 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/reflect/Array newInstance (Ljava/lang/Class;I)Ljava/lang/Object; 273 1 6211 0 288
+ciMethod java/lang/reflect/Array newArray (Ljava/lang/Class;I)Ljava/lang/Object; 2057 1 257 0 -1
+ciMethodData java/util/HashMap <init> ()V 2 12490 orig 264 8 30 100 100 0 0 0 0 48 120 15 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 0 0 0 145 133 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x30b2 oops 0
+ciMethodData java/util/AbstractMap <init> ()V 2 21392 orig 264 8 30 100 100 0 0 0 0 48 195 14 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61 0 0 0 153 154 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x5353 oops 0
+ciMethodData java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2 22889 orig 264 8 30 100 100 0 0 0 0 248 123 15 22 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 1 0 0 233 194 2 0 1 0 0 0 28 52 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 120 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 15 0x20002 0x585d 0x60005 0x56d 0x1cd78b20 0x52ec 0x1bac6440 0x5 0xb0007 0x2cb7 0x38 0x2ba8 0xf0003 0x2ba8 0x18 oops 2 4 java/util/HashMap 6 sun/nio/ch/WindowsSelectorImpl$FdMap
+ciMethod java/lang/reflect/Proxy isProxyClass (Ljava/lang/Class;)Z 1 1 6182 0 -1
+ciMethod java/lang/reflect/WeakCache containsValue (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod sun/reflect/generics/scope/MethodScope getEnclosingClass ()Ljava/lang/Class; 2041 1 734 0 0
+ciMethod sun/reflect/generics/scope/MethodScope computeEnclosingScope ()Lsun/reflect/generics/scope/Scope; 2049 1 734 0 0
+ciMethod sun/reflect/generics/scope/MethodScope make (Ljava/lang/reflect/Method;)Lsun/reflect/generics/scope/MethodScope; 113 1 507 0 -1
+ciMethod sun/reflect/generics/scope/Scope lookup (Ljava/lang/String;)Ljava/lang/reflect/TypeVariable; 0 0 1 0 -1
+ciMethod sun/reflect/generics/scope/AbstractScope <init> (Ljava/lang/reflect/GenericDeclaration;)V 425 1 1869 0 0
+ciMethod sun/reflect/generics/scope/AbstractScope getRecvr ()Ljava/lang/reflect/GenericDeclaration; 1057 1 132 0 0
+ciMethod sun/reflect/generics/scope/AbstractScope computeEnclosingScope ()Lsun/reflect/generics/scope/Scope; 0 0 1 0 -1
+ciMethod sun/reflect/generics/scope/AbstractScope getEnclosingScope ()Lsun/reflect/generics/scope/Scope; 801 1 1288 0 0
+ciMethod sun/reflect/generics/scope/AbstractScope lookup (Ljava/lang/String;)Ljava/lang/reflect/TypeVariable; 2137 1 2843 0 0
+ciMethod sun/reflect/generics/factory/GenericsFactory makeParameterizedType (Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Ljava/lang/reflect/ParameterizedType; 0 0 1 0 -1
+ciMethod sun/reflect/generics/factory/GenericsFactory findTypeVariable (Ljava/lang/String;)Ljava/lang/reflect/TypeVariable; 0 0 1 0 -1
+ciMethod sun/reflect/generics/factory/GenericsFactory makeNamedType (Ljava/lang/String;)Ljava/lang/reflect/Type; 0 0 1 0 -1
+ciMethod sun/reflect/generics/factory/CoreReflectionFactory getScope ()Lsun/reflect/generics/scope/Scope; 1041 1 130 0 0
+ciMethod sun/reflect/generics/factory/CoreReflectionFactory make (Ljava/lang/reflect/GenericDeclaration;Lsun/reflect/generics/scope/Scope;)Lsun/reflect/generics/factory/CoreReflectionFactory; 425 1 1117 0 -1
+ciMethod sun/reflect/generics/factory/CoreReflectionFactory findTypeVariable (Ljava/lang/String;)Ljava/lang/reflect/TypeVariable; 2041 1 1555 0 0
+ciMethod sun/reflect/generics/tree/TypeTree accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 0 0 1 0 -1
+ciMethod sun/reflect/generics/tree/FormalTypeParameter accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 113 1 216 0 0
+ciMethod sun/reflect/generics/tree/SimpleClassTypeSignature getDollar ()Z 1057 1 132 0 -1
+ciMethod sun/reflect/generics/tree/SimpleClassTypeSignature getName ()Ljava/lang/String; 1121 1 140 0 -1
+ciMethod sun/reflect/generics/tree/SimpleClassTypeSignature getTypeArguments ()[Lsun/reflect/generics/tree/TypeArgument; 1073 1 134 0 -1
+ciMethod sun/reflect/generics/tree/ClassTypeSignature getPath ()Ljava/util/List; 1057 1 132 0 -1
+ciMethod sun/reflect/generics/tree/ClassTypeSignature accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 2049 1 2704 0 0
+ciMethod sun/reflect/generics/tree/Signature getFormalTypeParameters ()[Lsun/reflect/generics/tree/FormalTypeParameter; 0 0 1 0 -1
+ciMethod sun/reflect/generics/tree/MethodTypeSignature getFormalTypeParameters ()[Lsun/reflect/generics/tree/FormalTypeParameter; 1025 1 128 0 0
+ciMethod sun/reflect/generics/visitor/TypeTreeVisitor visitFormalTypeParameter (Lsun/reflect/generics/tree/FormalTypeParameter;)V 0 0 1 0 -1
+ciMethod sun/reflect/generics/visitor/TypeTreeVisitor visitClassTypeSignature (Lsun/reflect/generics/tree/ClassTypeSignature;)V 0 0 1 0 -1
+ciMethod sun/reflect/generics/visitor/TypeTreeVisitor visitTypeVariableSignature (Lsun/reflect/generics/tree/TypeVariableSignature;)V 0 0 1 0 -1
+ciMethod sun/reflect/generics/visitor/Reifier <init> (Lsun/reflect/generics/factory/GenericsFactory;)V 1417 1 3942 0 0
+ciMethod sun/reflect/generics/visitor/Reifier getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 1041 1 130 0 0
+ciMethod sun/reflect/generics/visitor/Reifier make (Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/visitor/Reifier; 1417 1 3942 0 0
+ciMethod sun/reflect/generics/visitor/Reifier reifyTypeArguments ([Lsun/reflect/generics/tree/TypeArgument;)[Ljava/lang/reflect/Type; 913 953 1263 0 -1
+ciMethod sun/reflect/generics/visitor/Reifier getResult ()Ljava/lang/reflect/Type; 1417 1 3942 0 0
+ciMethod sun/reflect/generics/visitor/Reifier visitClassTypeSignature (Lsun/reflect/generics/tree/ClassTypeSignature;)V 2041 1 2704 0 -1
+ciMethod sun/reflect/generics/visitor/Reifier visitTypeVariableSignature (Lsun/reflect/generics/tree/TypeVariableSignature;)V 2041 1 1555 0 0
+ciMethod java/lang/reflect/ParameterizedType getActualTypeArguments ()[Ljava/lang/reflect/Type; 0 0 1 0 -1
+ciMethod java/lang/reflect/ParameterizedType getRawType ()Ljava/lang/reflect/Type; 0 0 1 0 -1
+ciMethod java/lang/reflect/ParameterizedType getOwnerType ()Ljava/lang/reflect/Type; 0 0 1 0 -1
+ciMethod sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl <init> (Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)V 609 1 2411 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl validateConstructorArguments ()V 1625 1745 2411 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl make (Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Lsun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl; 609 1 2411 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl getActualTypeArguments ()[Ljava/lang/reflect/Type; 2049 1 2039 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl getRawType ()Ljava/lang/Class; 1065 1 133 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl getOwnerType ()Ljava/lang/reflect/Type; 1033 1 129 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl getRawType ()Ljava/lang/reflect/Type; 2089 1 3055 0 0
+ciMethod sun/reflect/generics/scope/ClassScope <init> (Ljava/lang/Class;)V 521 1 1345 0 0
+ciMethod sun/reflect/generics/scope/ClassScope computeEnclosingScope ()Lsun/reflect/generics/scope/Scope; 49 1 6 0 0
+ciMethod sun/reflect/generics/scope/ClassScope make (Ljava/lang/Class;)Lsun/reflect/generics/scope/ClassScope; 521 1 1345 0 0
+ciMethod sun/reflect/generics/tree/ClassSignature getFormalTypeParameters ()[Lsun/reflect/generics/tree/FormalTypeParameter; 865 1 108 0 0
+ciMethod java/lang/reflect/TypeVariable getGenericDeclaration ()Ljava/lang/reflect/GenericDeclaration; 0 0 1 0 -1
+ciMethod java/lang/reflect/TypeVariable getName ()Ljava/lang/String; 0 0 1 0 -1
+ciMethod sun/reflect/generics/reflectiveObjects/TypeVariableImpl getName ()Ljava/lang/String; 1025 1 128 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/TypeVariableImpl equals (Ljava/lang/Object;)Z 1569 1 179 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 1057 1 132 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator getReifier ()Lsun/reflect/generics/visitor/Reifier; 881 1 1271 0 0
+ciMethodData java/lang/ref/Reference <init> (Ljava/lang/Object;)V 2 26874 orig 264 8 30 100 100 0 0 0 0 80 134 3 22 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147 0 0 0 57 67 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x6867 oops 0
+ciMethodData java/lang/reflect/Array newInstance (Ljava/lang/Class;I)Ljava/lang/Object; 2 6211 orig 264 8 30 100 100 0 0 0 0 128 186 25 22 0 0 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34 0 0 0 9 193 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x1821 oops 0
+ciMethodData java/lang/ClassLoader getClassLoader (Ljava/lang/Class;)Ljava/lang/ClassLoader; 1 631 orig 264 8 30 100 100 0 0 0 0 120 106 2 22 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 49 19 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 80 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 10 0x10007 0x266 0x20 0x0 0x70005 0x100 0x2f48dd0 0x166 0x0 0x0 oops 1 6 java/lang/Class
+ciMethodData java/lang/reflect/Proxy isProxyClass (Ljava/lang/Class;)Z 2 6182 orig 264 8 30 100 100 0 0 0 0 8 194 44 22 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49 193 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 17 0 2 0 0 0 184 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 23 0x30005 0x11b 0x2f48dd0 0x170b 0x0 0x0 0x60007 0x1826 0x88 0x0 0xd0005 0x0 0x0 0x0 0x0 0x0 0x100007 0x0 0x38 0x0 0x140003 0x0 0x18 oops 1 2 java/lang/Class
+ciMethodData java/lang/Object equals (Ljava/lang/Object;)Z 2 17532 orig 264 8 30 100 100 0 0 0 0 232 6 1 22 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 177 0 0 0 89 30 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 7 0x20007 0x1f78 0x38 0x2453 0x60003 0x2453 0x18 oops 0
+ciMethodData java/lang/Class checkPackageAccess (Ljava/lang/ClassLoader;Z)V 1 51 orig 264 8 30 100 100 0 0 0 0 24 241 1 22 0 0 0 0 184 3 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 153 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 96 2 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 76 0x2 0x33 0x50007 0x33 0x250 0x0 0x90005 0x0 0x0 0x0 0x0 0x0 0x110002 0x0 0x140007 0x0 0x160 0x0 0x180005 0x0 0x0 0x0 0x0 0x0 0x210005 0x0 0x0 0x0 0x0 0x0 0x290007 0x0 0xe0 0x0 0x310005 0x0 0x0 0x0 0x0 0x0 0x370002 0x0 0x3a0007 0x0 0x50 0x0 0x3e0002 0x0 0x410007 0x0 0x50 0x0 0x470005 0x0 0x0 0x0 0x0 0x0 0x4b0007 0x0 0x90 0x0 0x4f0002 0x0 0x520007 0x0 0x60 0x0 0x570005 0x0 0x0 0x0 0x0 0x0 0x5a0002 0x0 oops 0
+ciMethodData java/lang/ref/WeakReference <init> (Ljava/lang/Object;)V 2 21594 orig 264 8 30 100 100 0 0 0 0 176 141 3 22 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 193 154 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x5358 oops 0
+ciMethodData sun/reflect/misc/ReflectUtil needsPackageAccessCheck (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z 1 0 orig 264 8 30 100 100 0 0 0 0 72 119 18 22 0 0 0 0 248 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 168 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 21 0x10007 0x0 0x40 0x0 0x60007 0x0 0x20 0x0 0xc0007 0x0 0x20 0x0 0x130002 0x0 0x160007 0x0 0x38 0x0 0x1a0003 0x0 0x18 oops 0
+ciMethodData sun/reflect/misc/ReflectUtil isAncestor (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z 1 0 orig 264 8 30 100 100 0 0 0 0 152 118 18 22 0 0 0 0 192 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 112 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 14 0x30005 0x0 0x0 0x0 0x0 0x0 0x90007 0x0 0x20 0x0 0xf0007 0x0 0xffffffffffffffb0 0x0 oops 0
+ciMethodData java/lang/ClassLoader getParent ()Ljava/lang/ClassLoader; 1 991 orig 264 8 30 100 100 0 0 0 0 120 102 2 22 0 0 0 0 184 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 0 0 0 105 30 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 30 0 2 0 0 0 112 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 14 0x40007 0x234 0x20 0x199 0x90002 0x234 0xe0007 0x234 0x40 0x0 0x150002 0x0 0x180002 0x0 oops 0
+ciMethod java/lang/reflect/GenericArrayType getGenericComponentType ()Ljava/lang/reflect/Type; 0 0 1 0 -1
+ciMethod com/sun/beans/WeakCache get (Ljava/lang/Object;)Ljava/lang/Object; 297 1 328 0 0
+ciMethod com/sun/beans/WeakCache put (Ljava/lang/Object;Ljava/lang/Object;)V 105 1 92 0 0
+ciMethod com/sun/beans/TypeResolver resolve (Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type; 2873 1 5479 0 0
+ciMethod com/sun/beans/TypeResolver resolve (Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;)[Ljava/lang/reflect/Type; 2057 2193 5300 0 0
+ciMethod com/sun/beans/TypeResolver erase (Ljava/lang/reflect/Type;)Ljava/lang/Class; 2137 1 4421 0 -1
+ciMethod com/sun/beans/TypeResolver prepare (Ljava/util/Map;Ljava/lang/reflect/Type;)V 1 1 236 0 0
+ciMethod com/sun/beans/TypeResolver fixGenericArray (Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type; 0 0 33 0 0
+ciMethod java/lang/reflect/WildcardType getUpperBounds ()[Ljava/lang/reflect/Type; 0 0 1 0 -1
+ciMethod java/lang/reflect/WildcardType getLowerBounds ()[Ljava/lang/reflect/Type; 0 0 1 0 -1
+ciMethod sun/reflect/generics/reflectiveObjects/WildcardTypeImpl getUpperBoundASTs ()[Lsun/reflect/generics/tree/FieldTypeSignature; 593 1 751 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/WildcardTypeImpl getLowerBoundASTs ()[Lsun/reflect/generics/tree/FieldTypeSignature; 537 1 753 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/WildcardTypeImpl getUpperBounds ()[Ljava/lang/reflect/Type; 2057 593 4834 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/WildcardTypeImpl getLowerBounds ()[Ljava/lang/reflect/Type; 2057 225 4933 0 0
+ciMethod com/sun/beans/WildcardTypeImpl <init> ([Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;)V 193 1 245 0 0
+ciMethod sun/reflect/generics/tree/TypeVariableSignature getIdentifier ()Ljava/lang/String; 1041 1 130 0 0
+ciMethod sun/reflect/generics/tree/TypeVariableSignature accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 2049 1 1555 0 0
+ciMethodData sun/reflect/generics/scope/AbstractScope <init> (Ljava/lang/reflect/GenericDeclaration;)V 2 1869 orig 264 8 30 100 100 0 0 0 0 136 234 50 22 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53 0 0 0 193 56 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x718 oops 0
+ciMethodData sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl getRawType ()Ljava/lang/reflect/Type; 2 3055 orig 264 8 30 100 100 0 0 0 0 32 203 51 22 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 81 87 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x0 0x1cd787b0 0xaea 0x0 0x0 oops 1 2 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl
+ciMethodData java/lang/Class getTypeParameters ()[Ljava/lang/reflect/TypeVariable; 2 7726 orig 264 8 30 100 100 0 0 0 0 32 203 1 22 0 0 0 0 8 2 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 113 233 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 192 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 24 0x10002 0x1d2e 0x60007 0xd85 0x80 0xfa9 0xa0005 0x0 0x1be87c00 0xfa9 0x0 0x0 0xd0004 0x0 0x0 0x0 0x0 0x0 0x150004 0x0 0x0 0x0 0x0 0x0 oops 1 8 sun/reflect/generics/repository/ClassRepository
+ciMethodData java/lang/Class getGenericInfo ()Lsun/reflect/generics/repository/ClassRepository; 2 5415 orig 264 8 30 100 100 0 0 0 0 192 245 1 22 0 0 0 0 8 2 0 0 120 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 17 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 192 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 24 0x60007 0x136c 0x88 0xb6 0xa0002 0xb6 0xf0007 0x55 0x38 0x61 0x160003 0x61 0x38 0x1b0002 0x55 0x1e0002 0x55 0x2b0007 0xae3 0x38 0x93f 0x2f0003 0x93f 0x18 oops 0
+ciMethodData sun/reflect/generics/repository/GenericDeclRepository getTypeParameters ()[Ljava/lang/reflect/TypeVariable; 2 5194 orig 264 8 30 100 100 0 0 0 0 136 209 17 22 0 0 0 0 128 3 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 0 0 0 49 160 0 0 1 6 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 56 2 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 71 0x60007 0x107c 0x1d8 0x38a 0xa0005 0x5 0x1bf355f0 0x320 0x1be87c00 0x65 0xd0004 0x0 0x1bf356a0 0x325 0x1bf35750 0x65 0x100005 0x0 0x1bf356a0 0x325 0x1bf35750 0x65 0x210007 0x38a 0x128 0xc0 0x250005 0x0 0x1be87c00 0x52 0x1bf355f0 0x6e 0x2f0005 0x0 0x1bf32630 0xc0 0x0 0x0 0x360005 0x0 0x1bf32e50 0xc0 0x0 0x0 0x390004 0x0 0x1cd789c0 0xc0 0x0 0x0 0x3c0004 0x0 0x1cd789c0 0xc0 0x0 0x0 0x400003 0xc0 0xfffffffffffffef0 0x490005 0x0 0x1be32800 0x1406 0x0 0x0 0x4c0004 0x0 0x1be32800 0x1406 0x0 0x0 oops 14 6 sun/reflect/generics/repository/MethodRepository 8 sun/reflect/generics/repository/ClassRepository 12 sun/reflect/generics/tree/MethodTypeSignature 14 sun/reflect/generics/tree/ClassSignature 18 sun/reflect/generics/tree/MethodTypeSignature 20 sun/reflect/generics/tree/ClassSignature 28 sun/reflect/generics/repository/ClassRepository 30 sun/reflect/generics/repository/MethodRepository 34 sun/reflect/generics/tree/FormalTypeParameter 40 sun/reflect/generics/visitor/Reifier 46 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 52 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 61 [Ljava/lang/reflect/TypeVariable; 67 [Ljava/lang/reflect/TypeVariable;
+ciMethod sun/reflect/generics/scope/ConstructorScope getEnclosingClass ()Ljava/lang/Class; 97 1 12 0 -1
+ciMethod sun/reflect/generics/scope/ConstructorScope computeEnclosingScope ()Lsun/reflect/generics/scope/Scope; 97 1 12 0 0
+ciMethod sun/reflect/generics/scope/ConstructorScope make (Ljava/lang/reflect/Constructor;)Lsun/reflect/generics/scope/ConstructorScope; 137 1 17 0 -1
+ciMethodData java/lang/Class getDeclaringClass ()Ljava/lang/Class; 2 3287 orig 264 8 30 100 100 0 0 0 0 160 215 1 22 0 0 0 0 168 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 185 94 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 96 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 12 0x10002 0xbd7 0x60007 0xbbd 0x50 0x1a 0xa0002 0x1a 0xd0002 0x1a 0x110002 0x1a oops 0
+ciMethodData com/sun/beans/TypeResolver resolve (Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;)[Ljava/lang/reflect/Type; 2 5300 orig 264 8 30 100 100 0 0 0 0 72 51 35 27 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 1 0 0 153 157 0 0 201 76 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 6 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 14 0 0 0 0 0 data 15 0xe0007 0x13b2 0x78 0x99a 0x190002 0x99a 0x1c0004 0x0 0x2f48dd0 0x799 0x1cd7e840 0xec 0x200003 0x999 0xffffffffffffffa0 oops 2 8 java/lang/Class 10 com/sun/beans/WildcardTypeImpl
+ciMethodData com/sun/beans/TypeResolver resolve (Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type; 2 5479 orig 264 8 30 100 100 0 0 0 0 136 50 35 27 0 0 0 0 192 8 0 0 80 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 34 0 2 0 0 0 112 7 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 238 0x10004 0xfffffffffffffbdf 0x2f48dd0 0xfde 0x1cd787b0 0x11 0x40007 0x421 0x20 0xfde 0xa0004 0xfffffffffffffbf2 0x1cd787b0 0x11 0x1cd78860 0x10 0xd0007 0x40e 0x178 0x13 0x110004 0x0 0x1cd78910 0x13 0x0 0x0 0x140005 0x0 0x1cd78910 0x13 0x0 0x0 0x1c0002 0x13 0x210004 0xffffffffffffffed 0x0 0x0 0x0 0x0 0x240007 0x13 0xa8 0x0 0x280004 0x0 0x0 0x0 0x0 0x0 0x2c0002 0x0 0x2f0005 0x0 0x0 0x0 0x0 0x0 0x320003 0x0 0x28 0x360002 0x13 0x3b0004 0xfffffffffffffeb9 0x1cd787b0 0x2c7 0x1cd78860 0x10 0x3e0007 0x147 0x130 0x2c7 0x420004 0x0 0x1cd787b0 0x2c7 0x0 0x0 0x480005 0x0 0x1cd787b0 0x2c7 0x0 0x0 0x4d0002 0x2c7 0x520005 0x0 0x1cd787b0 0x2c6 0x0 0x0 0x570004 0x0 0x2f48dd0 0x2c6 0x0 0x0 0x5c0005 0x0 0x1cd787b0 0x2c6 0x0 0x0 0x610002 0x2c6 0x660004 0xffffffffffffffa5 0x1cd78860 0xec 0x1cd789c0 0x1 0x690007 0x5b 0xe0 0xec 0x6d0004 0x0 0x1cd78860 0xec 0x0 0x0 0x730005 0x0 0x1cd78860 0xec 0x0 0x0 0x780002 0xec 0x7e0005 0x0 0x1cd78860 0xec 0x0 0x0 0x830002 0xec 0x8f0002 0xec 0x940004 0x0 0x1cd789c0 0x5b 0x0 0x0 0x970007 0x0 0x1f8 0x5b 0xa40005 0x1 0x1cd78a70 0x5a 0x0 0x0 0xa70104 0x0 0x1cd78b20 0x4e 0x0 0x0 0xac0007 0x4e 0x70 0xd 0xb30002 0xd 0xb90002 0xd 0xc10005 0x1 0x1cd78a70 0xc 0x0 0x0 0xc60003 0x5b 0x18 0xd20005 0x0 0x1cd78b20 0x5b 0x0 0x0 0xd70104 0x0 0x1cd789c0 0x35 0x2f48dd0 0xc 0xdc0007 0x1a 0x70 0x41 0xe10005 0x0 0x1cd789c0 0x35 0x2f48dd0 0xc 0xe40007 0x21 0x20 0x20 0xea0002 0x21 0xf00002 0x21 0xfc0002 0x0 0x1010005 0x0 0x0 0x0 0x0 0x0 0x1050005 0x0 0x0 0x0 0x0 0x0 0x1080005 0x0 0x0 0x0 0x0 0x0 0x10b0005 0x0 0x0 0x0 0x0 0x0 0x10e0002 0x0 oops 27 2 java/lang/Class 4 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 12 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 14 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 22 sun/reflect/generics/reflectiveObjects/GenericArrayTypeImpl 28 sun/reflect/generics/reflectiveObjects/GenericArrayTypeImpl 65 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 67 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 75 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 81 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 89 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 95 java/lang/Class 101 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 109 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 111 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 119 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 125 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 133 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 143 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 153 com/sun/beans/WeakCache 159 java/util/HashMap 173 com/sun/beans/WeakCache 182 java/util/HashMap 188 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 190 java/lang/Class 198 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 200 java/lang/Class
+ciMethodData java/lang/Class getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 1 136 orig 264 8 30 100 100 0 0 0 0 248 244 1 22 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 0 241 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 4 0x20002 0x7e 0x50002 0x7e oops 0
+ciMethodData sun/reflect/generics/scope/ClassScope make (Ljava/lang/Class;)Lsun/reflect/generics/scope/ClassScope; 2 1345 orig 264 8 30 100 100 0 0 0 0 8 213 51 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65 0 0 0 1 40 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x500 oops 0
+ciMethodData sun/reflect/generics/scope/ClassScope <init> (Ljava/lang/Class;)V 2 1345 orig 264 8 30 100 100 0 0 0 0 160 211 51 22 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65 0 0 0 1 40 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x500 oops 0
+ciMethodData sun/reflect/generics/repository/ClassRepository make (Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/ClassRepository; 1 131 orig 264 8 30 100 100 0 0 0 0 128 202 17 22 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 0 0 0 193 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x78 oops 0
+ciMethodData sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl make (Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Lsun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl; 2 2411 orig 264 8 30 100 100 0 0 0 0 136 197 51 22 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 0 0 0 249 72 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 2 0x70002 0x91f oops 0
+ciMethodData sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl <init> (Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)V 2 2411 orig 264 8 30 100 100 0 0 0 0 40 196 51 22 0 0 0 0 232 1 0 0 72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 0 0 0 249 72 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 136 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 17 0x10002 0x91f 0x100007 0x91f 0x38 0x0 0x140003 0x0 0x48 0x180005 0x82 0x2f48dd0 0x89d 0x0 0x0 0x1f0002 0x91f oops 1 11 java/lang/Class
+ciMethodData com/sun/beans/WildcardTypeImpl <init> ([Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;)V 1 245 orig 264 8 30 100 100 0 0 0 0 248 107 35 27 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 0 0 0 233 6 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xdd oops 0
+ciMethodData com/sun/beans/WeakCache get (Ljava/lang/Object;)Ljava/lang/Object; 1 328 orig 264 8 30 100 100 0 0 0 0 160 23 34 27 0 0 0 0 80 2 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37 0 0 0 25 9 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 0 1 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 32 0x50005 0x0 0x1bac5610 0x123 0x0 0x0 0xa0104 0x0 0x2f49c90 0xd4 0x0 0x0 0xf0007 0xd4 0x20 0x4f 0x150005 0x0 0x2f49c90 0xd4 0x0 0x0 0x1a0007 0xd4 0x50 0x0 0x220005 0x0 0x0 0x0 0x0 0x0 oops 3 2 java/util/WeakHashMap 8 java/lang/ref/WeakReference 18 java/lang/ref/WeakReference
+ciMethodData com/sun/beans/TypeResolver prepare (Ljava/util/Map;Ljava/lang/reflect/Type;)V 1 343 orig 264 8 30 100 100 0 0 0 0 232 54 35 27 0 0 0 0 56 7 0 0 80 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 97 7 0 0 185 10 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 232 5 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 189 0x10004 0xffffffffffffff61 0x1cd787b0 0x9f 0x2f48dd0 0x4d 0x40007 0x9f 0x38 0x4d 0x80003 0x4d 0x78 0xc0004 0x0 0x1cd787b0 0x9f 0x0 0x0 0xf0005 0x0 0x1cd787b0 0x9f 0x0 0x0 0x140004 0x0 0x2f48dd0 0xec 0x0 0x0 0x170004 0x0 0x2f48dd0 0xec 0x0 0x0 0x1c0005 0xec 0x0 0x0 0x0 0x0 0x210004 0xffffffffffffff61 0x1cd787b0 0x9f 0x2f48dd0 0x4d 0x240007 0x9f 0x38 0x4d 0x280003 0x4d 0x78 0x2c0004 0x0 0x1cd787b0 0x9f 0x0 0x0 0x2f0005 0x0 0x1cd787b0 0x9f 0x0 0x0 0x390007 0xec 0x50 0x0 0x410007 0x0 0x30 0x0 0x480002 0x0 0x530007 0xec 0x68 0x9f 0x600005 0x0 0x1cd78b20 0x9f 0x0 0x0 0x690003 0x9f 0xffffffffffffffb0 0x6d0005 0xec 0x0 0x0 0x0 0x0 0x740007 0xc6 0x30 0x26 0x7a0002 0x26 0x7e0005 0xec 0x0 0x0 0x0 0x0 0x8f0007 0xec 0x48 0xb9 0x9c0002 0xb9 0xa20003 0xb9 0xffffffffffffffd0 0xa60004 0xffffffffffffff61 0x2f48dd0 0x4d 0x1cd787b0 0x9f 0xa90007 0x9f 0x208 0x4d 0xae0007 0x4d 0x1e8 0x0 0xb20005 0x0 0x0 0x0 0x0 0x0 0xb70005 0x0 0x0 0x0 0x0 0x0 0xc00005 0x0 0x0 0x0 0x0 0x0 0xc50007 0x0 0x138 0x0 0xca0005 0x0 0x0 0x0 0x0 0x0 0xcf0004 0x0 0x0 0x0 0x0 0x0 0xd80005 0x0 0x0 0x0 0x0 0x0 0xdd0004 0x0 0x0 0x0 0x0 0x0 0xe00002 0x0 0xe30005 0x0 0x0 0x0 0x0 0x0 0xe90003 0x0 0xfffffffffffffeb0 oops 13 2 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 4 java/lang/Class 15 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 21 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 27 java/lang/Class 33 java/lang/Class 45 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 47 java/lang/Class 58 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 64 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 84 java/util/HashMap 120 java/lang/Class 122 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl
+ciMethodData com/sun/beans/WeakCache put (Ljava/lang/Object;Ljava/lang/Object;)V 1 92 orig 264 8 30 100 100 0 0 0 0 88 24 34 27 0 0 0 0 0 2 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 0 0 0 121 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 168 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 21 0x10007 0x0 0x78 0x4f 0xe0002 0x4f 0x110005 0x0 0x1bac5610 0x4f 0x0 0x0 0x170003 0x4f 0x48 0x1f0005 0x0 0x0 0x0 0x0 0x0 oops 1 8 java/util/WeakHashMap
+ciMethodData com/sun/beans/TypeResolver fixGenericArray (Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type; 1 33 orig 264 8 30 100 100 0 0 0 0 168 55 35 27 0 0 0 0 200 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 48 0x10004 0xffffffffffffffdf 0x1cd789c0 0x15 0x2f48dd0 0xc 0x40007 0x21 0x150 0x0 0x80004 0x0 0x0 0x0 0x0 0x0 0xb0005 0x0 0x0 0x0 0x0 0x0 0x120002 0x0 0x170004 0x0 0x0 0x0 0x0 0x0 0x1a0007 0x0 0x90 0x0 0x1e0004 0x0 0x0 0x0 0x0 0x0 0x220002 0x0 0x250005 0x0 0x0 0x0 0x0 0x0 oops 2 2 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 4 java/lang/Class
+ciMethodData sun/reflect/generics/repository/AbstractRepository getReifier ()Lsun/reflect/generics/visitor/Reifier; 2 2208 orig 264 8 30 100 100 0 0 0 0 144 213 17 22 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 109 0 0 0 153 65 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0x833 0x40002 0x833 oops 0
+ciMethodData sun/reflect/generics/visitor/Reifier make (Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/visitor/Reifier; 2 3942 orig 264 8 30 100 100 0 0 0 0 168 164 51 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 177 0 0 0 169 117 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0xeb5 oops 0
+ciMethodData sun/reflect/generics/visitor/Reifier <init> (Lsun/reflect/generics/factory/GenericsFactory;)V 2 3942 orig 264 8 30 100 100 0 0 0 0 120 163 51 22 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 177 0 0 0 169 117 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xeb5 oops 0
+ciMethodData sun/reflect/generics/tree/FormalTypeParameter accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 1 216 orig 264 8 30 100 100 0 0 0 0 192 101 51 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 0 0 0 81 6 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x1bf32e50 0xca 0x0 0x0 oops 1 2 sun/reflect/generics/visitor/Reifier
+ciMethodData sun/reflect/generics/visitor/Reifier getResult ()Ljava/lang/reflect/Type; 2 3942 orig 264 8 30 100 100 0 0 0 0 16 166 51 22 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 177 0 0 0 169 117 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 4 0 2 0 0 0 80 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 10 0x30007 0xeb5 0x50 0x0 0xa0007 0x0 0x30 0x0 0x110002 0x0 oops 0
+ciMethodData sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl validateConstructorArguments ()V 2 2764 orig 264 8 30 100 100 0 0 0 0 232 196 51 22 0 0 0 0 224 1 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 218 0 0 0 33 69 0 0 145 79 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 152 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 19 0x40005 0x81 0x2f48dd0 0x823 0x0 0x0 0xf0007 0x8a4 0x30 0x0 0x160002 0x0 0x220007 0x8a4 0x38 0x9f2 0x280003 0x9f2 0xffffffffffffffe0 oops 1 2 java/lang/Class
+ciMethod sun/reflect/generics/reflectiveObjects/GenericArrayTypeImpl <init> (Ljava/lang/reflect/Type;)V 817 1 102 0 -1
+ciMethod sun/reflect/generics/reflectiveObjects/GenericArrayTypeImpl make (Ljava/lang/reflect/Type;)Lsun/reflect/generics/reflectiveObjects/GenericArrayTypeImpl; 817 1 102 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/GenericArrayTypeImpl getGenericComponentType ()Ljava/lang/reflect/Type; 993 1 124 0 0
+ciMethodData sun/reflect/generics/tree/ClassTypeSignature accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 2 2704 orig 264 8 30 100 100 0 0 0 0 248 122 51 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 129 76 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x1bf32e50 0x990 0x0 0x0 oops 1 2 sun/reflect/generics/visitor/Reifier
+ciMethodData sun/reflect/generics/visitor/Reifier visitClassTypeSignature (Lsun/reflect/generics/tree/ClassTypeSignature;)V 2 2704 orig 264 8 30 100 100 0 0 0 0 224 168 51 22 0 0 0 0 232 10 0 0 184 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0 0 0 137 76 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 31 0 2 0 0 0 152 9 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 307 0x10005 0x0 0x1d9e0890 0x991 0x0 0x0 0x80007 0x991 0x80 0x0 0xc0005 0x0 0x0 0x0 0x0 0x0 0x110007 0x0 0x30 0x0 0x180002 0x0 0x1d0005 0x0 0x1dfcf910 0x991 0x0 0x0 0x240005 0x0 0x1dfcf9c0 0x991 0x0 0x0 0x290004 0x0 0x1d9e07e0 0x991 0x0 0x0 0x340005 0x0 0x1d9e07e0 0x991 0x0 0x0 0x370002 0x991 0x3e0005 0x0 0x1d9e07e0 0x991 0x0 0x0 0x440005 0x0 0x1dfcf9c0 0x991 0x0 0x0 0x490007 0x991 0x1e0 0x0 0x4e0005 0x0 0x0 0x0 0x0 0x0 0x520007 0x0 0x190 0x0 0x560005 0x0 0x0 0x0 0x0 0x0 0x5b0004 0x0 0x0 0x0 0x0 0x0 0x620005 0x0 0x0 0x0 0x0 0x0 0x6b0007 0x0 0x38 0x0 0x700003 0x0 0x18 0x750005 0x0 0x0 0x0 0x0 0x0 0x7a0005 0x0 0x0 0x0 0x0 0x0 0x7d0005 0x0 0x0 0x0 0x0 0x0 0x810003 0x0 0xfffffffffffffe08 0x870007 0x991 0xd0 0x0 0x8b0005 0x0 0x0 0x0 0x0 0x0 0x900007 0x0 0x80 0x0 0x950005 0x0 0x0 0x0 0x0 0x0 0x990007 0x0 0x30 0x0 0xa00002 0x0 0xa50002 0x991 0xaa0005 0x8b 0x16999d50 0x906 0x0 0x0 0xad0005 0x0 0x1bf30210 0x991 0x0 0x0 0xb60005 0x0 0x1d9e07e0 0x991 0x0 0x0 0xba0007 0x49d 0xb8 0x4f4 0xc00007 0x4f4 0x80 0x0 0xc40005 0x0 0x0 0x0 0x0 0x0 0xc90007 0x0 0x30 0x0 0xd00002 0x0 0xda0003 0x4f4 0x3c8 0xe00007 0x49d 0x80 0x0 0xe50005 0x0 0x0 0x0 0x0 0x0 0xe90007 0x0 0x30 0x0 0xf00002 0x0 0xf70005 0x0 0x1d9e07e0 0x49d 0x0 0x0 0xfa0002 0x49d 0x1000002 0x49d 0x1080005 0x0 0x1bf30210 0x49d 0x0 0x0 0x1130005 0x0 0x1dfcf9c0 0x49d 0x0 0x0 0x1180007 0x49d 0x280 0x0 0x11c0005 0x0 0x0 0x0 0x0 0x0 0x1210004 0x0 0x0 0x0 0x0 0x0 0x1280005 0x0 0x0 0x0 0x0 0x0 0x1310007 0x0 0x38 0x0 0x1360003 0x0 0x18 0x13b0005 0x0 0x0 0x0 0x0 0x0 0x1400005 0x0 0x0 0x0 0x0 0x0 0x1430005 0x0 0x0 0x0 0x0 0x0 0x1480002 0x0 0x14d0005 0x0 0x0 0x0 0x0 0x0 0x1500005 0x0 0x0 0x0 0x0 0x0 0x15a0005 0x0 0x0 0x0 0x0 0x0 0x15d0002 0x0 0x1630002 0x0 0x16c0005 0x0 0x0 0x0 0x0 0x0 0x1730003 0x0 0xfffffffffffffd68 oops 13 2 sun/reflect/generics/tree/ClassTypeSignature 24 java/util/ArrayList 30 java/util/ArrayList$Itr 36 sun/reflect/generics/tree/SimpleClassTypeSignature 42 sun/reflect/generics/tree/SimpleClassTypeSignature 50 sun/reflect/generics/tree/SimpleClassTypeSignature 56 java/util/ArrayList$Itr 150 java/lang/StringBuilder 156 sun/reflect/generics/factory/CoreReflectionFactory 162 sun/reflect/generics/tree/SimpleClassTypeSignature 207 sun/reflect/generics/tree/SimpleClassTypeSignature 217 sun/reflect/generics/factory/CoreReflectionFactory 223 java/util/ArrayList$Itr
+ciMethodData sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl getActualTypeArguments ()[Ljava/lang/reflect/Type; 2 2039 orig 264 8 30 100 100 0 0 0 0 32 198 51 22 0 0 0 0 168 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 185 55 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 12 0x40005 0x0 0x1cd7e350 0x6d3 0x1be32800 0x24 0x70004 0x0 0x1cd7e350 0x6d3 0x1be32800 0x24 oops 4 2 [Ljava/lang/reflect/Type; 4 [Ljava/lang/reflect/TypeVariable; 8 [Ljava/lang/reflect/Type; 10 [Ljava/lang/reflect/TypeVariable;
+ciMethodData sun/reflect/generics/reflectiveObjects/WildcardTypeImpl getLowerBounds ()[Ljava/lang/reflect/Type; 2 4933 orig 264 8 30 100 100 0 0 0 0 104 92 35 27 0 0 0 0 208 2 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 33 146 0 0 217 10 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 2 0 0 0 136 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 49 0x40007 0xf96 0x128 0x2ae 0x80002 0x2ae 0x170007 0x2ae 0xf8 0x15b 0x1b0005 0x0 0x1cd78860 0x15b 0x0 0x0 0x250005 0x0 0x1d9e6540 0x124 0x1d9e0890 0x37 0x2e0005 0x0 0x1bf32e50 0x15b 0x0 0x0 0x310004 0x0 0x1cd789c0 0x124 0x2f48dd0 0x34 0x350003 0x15b 0xffffffffffffff20 0x410005 0x0 0x1cd7e350 0x1244 0x0 0x0 0x440004 0x0 0x1cd7e350 0x1244 0x0 0x0 oops 8 12 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 18 sun/reflect/generics/tree/TypeVariableSignature 20 sun/reflect/generics/tree/ClassTypeSignature 24 sun/reflect/generics/visitor/Reifier 30 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 32 java/lang/Class 39 [Ljava/lang/reflect/Type; 45 [Ljava/lang/reflect/Type;
+ciMethodData sun/reflect/generics/reflectiveObjects/WildcardTypeImpl getLowerBoundASTs ()[Lsun/reflect/generics/tree/FieldTypeSignature; 1 753 orig 264 8 30 100 100 0 0 0 0 168 90 35 27 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 67 0 0 0 113 21 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 10 0x30007 0x2ae 0x50 0x0 0xa0007 0x0 0x30 0x0 0x110002 0x0 oops 0
+ciMethodData sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator getReifier ()Lsun/reflect/generics/visitor/Reifier; 2 1271 orig 264 8 30 100 100 0 0 0 0 120 7 52 22 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110 0 0 0 73 36 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0x489 0x40002 0x489 oops 0
+ciMethodData sun/reflect/generics/reflectiveObjects/WildcardTypeImpl getUpperBounds ()[Ljava/lang/reflect/Type; 2 4834 orig 264 8 30 100 100 0 0 0 0 136 91 35 27 0 0 0 0 208 2 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 9 143 0 0 41 21 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 2 0 0 0 136 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 49 0x40007 0xf3c 0x128 0x2a5 0x80002 0x2a5 0x170007 0x2a5 0xf8 0x2a5 0x1b0005 0x0 0x1cd78860 0x2a5 0x0 0x0 0x250005 0x9a 0x1d9e07e0 0x204 0x1d9e0890 0x7 0x2e0005 0x0 0x1bf32e50 0x2a5 0x0 0x0 0x310004 0x0 0x2f48dd0 0x20b 0x1cd789c0 0x9a 0x350003 0x2a5 0xffffffffffffff20 0x410005 0x0 0x1cd7e350 0x11e1 0x0 0x0 0x440004 0x0 0x1cd7e350 0x11e1 0x0 0x0 oops 8 12 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 18 sun/reflect/generics/tree/SimpleClassTypeSignature 20 sun/reflect/generics/tree/ClassTypeSignature 24 sun/reflect/generics/visitor/Reifier 30 java/lang/Class 32 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 39 [Ljava/lang/reflect/Type; 45 [Ljava/lang/reflect/Type;
+ciMethodData sun/reflect/generics/reflectiveObjects/WildcardTypeImpl getUpperBoundASTs ()[Lsun/reflect/generics/tree/FieldTypeSignature; 1 751 orig 264 8 30 100 100 0 0 0 0 0 90 35 27 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 74 0 0 0 41 21 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 10 0x30007 0x2a5 0x50 0x0 0xa0007 0x0 0x30 0x0 0x110002 0x0 oops 0
+ciMethodData sun/reflect/generics/scope/AbstractScope lookup (Ljava/lang/String;)Ljava/lang/reflect/TypeVariable; 2 2843 orig 264 8 30 100 100 0 0 0 0 40 237 50 22 0 0 0 0 200 2 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 1 0 0 129 80 0 0 241 15 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 12 0 2 0 0 0 120 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 47 0x10005 0xb 0x1d505250 0x561 0x1bf2ffc0 0x4a4 0x40005 0xb 0x2f4a400 0x561 0x2f48dd0 0x4a4 0x170007 0x4a4 0xb8 0x76a 0x220005 0x0 0x1cd789c0 0x76a 0x0 0x0 0x280005 0x0 0x2f48d40 0x76a 0x0 0x0 0x2b0007 0x1fe 0x20 0x56c 0x340003 0x1fe 0xffffffffffffff60 0x380005 0x0 0x1d505250 0x499 0x1d505300 0xb 0x3c0005 0x0 0x1bf2ffc0 0x4a4 0x0 0x0 oops 9 2 sun/reflect/generics/scope/MethodScope 4 sun/reflect/generics/scope/ClassScope 8 java/lang/reflect/Method 10 java/lang/Class 18 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 24 java/lang/String 37 sun/reflect/generics/scope/MethodScope 39 sun/reflect/generics/scope/ConstructorScope 43 sun/reflect/generics/scope/ClassScope
+ciMethodData sun/reflect/generics/scope/AbstractScope getEnclosingScope ()Lsun/reflect/generics/scope/Scope; 2 1288 orig 264 8 30 100 100 0 0 0 0 80 236 50 22 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 0 0 0 33 37 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 10 0x60007 0x20f 0x50 0x295 0xa0005 0x0 0x1d505250 0x28f 0x1d505300 0x6 oops 2 6 sun/reflect/generics/scope/MethodScope 8 sun/reflect/generics/scope/ConstructorScope
+ciMethodData sun/reflect/generics/tree/TypeVariableSignature accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 2 1555 orig 264 8 30 100 100 0 0 0 0 136 190 35 27 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 153 40 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x1bf32e50 0x513 0x0 0x0 oops 1 2 sun/reflect/generics/visitor/Reifier
+ciMethodData sun/reflect/generics/visitor/Reifier visitTypeVariableSignature (Lsun/reflect/generics/tree/TypeVariableSignature;)V 2 1555 orig 264 8 30 100 100 0 0 0 0 48 170 51 22 0 0 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0 0 0 161 40 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 112 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 14 0x20002 0x514 0x60005 0x0 0x1d9e6540 0x514 0x0 0x0 0x90005 0x0 0x1bf30210 0x514 0x0 0x0 oops 2 4 sun/reflect/generics/tree/TypeVariableSignature 10 sun/reflect/generics/factory/CoreReflectionFactory
+ciMethodData sun/reflect/generics/factory/CoreReflectionFactory findTypeVariable (Ljava/lang/String;)Ljava/lang/reflect/TypeVariable; 2 1555 orig 264 8 30 100 100 0 0 0 0 248 6 51 22 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0 0 0 161 40 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x514 0x50005 0x0 0x1d505250 0x509 0x1d505300 0xb oops 2 4 sun/reflect/generics/scope/MethodScope 6 sun/reflect/generics/scope/ConstructorScope
+ciMethodData sun/reflect/generics/scope/MethodScope computeEnclosingScope ()Lsun/reflect/generics/scope/Scope; 1 734 orig 264 8 30 100 100 0 0 0 0 168 228 50 22 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 241 14 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0x1de 0x40002 0x1de oops 0
+ciMethodData sun/reflect/generics/scope/MethodScope getEnclosingClass ()Ljava/lang/Class; 1 734 orig 264 8 30 100 100 0 0 0 0 16 228 50 22 0 0 0 0 216 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0 0 0 249 14 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 144 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 18 0x10005 0x0 0x1d505250 0x1df 0x0 0x0 0x40004 0x0 0x2f4a400 0x1df 0x0 0x0 0x70005 0x1 0x2f4a400 0x1de 0x0 0x0 oops 3 2 sun/reflect/generics/scope/MethodScope 8 java/lang/reflect/Method 14 java/lang/reflect/Method
+instanceKlass com/android/builder/core/DefaultApiVersion
+instanceKlass com/android/builder/core/LibraryRequest
+instanceKlass com/android/build/gradle/BasePlugin$$Lambda$23
+instanceKlass org/gradle/api/internal/project/taskfactory/OutputDirectoryPropertyAnnotationHandler$2$1
+instanceKlass org/gradle/api/internal/project/taskfactory/OutputDirectoryPropertyAnnotationHandler$2
+instanceKlass com/android/build/gradle/internal/tasks/LintCompile$ConfigAction
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$22
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskInputs$7
+instanceKlass org/gradle/api/internal/project/taskfactory/InputPropertyAnnotationHandler$1
+instanceKlass com/android/sdklib/BuildToolInfo
+instanceKlass com/android/builder/model/Variant
+instanceKlass com/android/builder/model/AndroidProject
+instanceKlass com/android/tools/lint/client/api/IssueRegistry
+instanceKlass com/android/build/gradle/tasks/Lint$GlobalConfigAction
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$21
+instanceKlass org/gradle/api/internal/project/taskfactory/OutputFilePropertyAnnotationHandler$2$1
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskOutputs$3
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$Validator$1
+instanceKlass org/gradle/api/internal/project/taskfactory/OutputFilePropertyAnnotationHandler$2
+instanceKlass org/gradle/api/tasks/diagnostics/internal/text/TextReportBuilder
+instanceKlass org/gradle/api/tasks/diagnostics/internal/TextReportRenderer
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskOutputs$2
+instanceKlass org/gradle/api/tasks/diagnostics/AbstractReportTask$1
+instanceKlass org/gradle/api/tasks/diagnostics/internal/ReportRenderer
+instanceKlass org/gradle/api/tasks/diagnostics/internal/ProjectReportGenerator
+instanceKlass com/android/build/gradle/internal/tasks/SourceSetsTask$ConfigAction
+instanceKlass com/android/build/gradle/internal/scope/AndroidTask$2
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$20
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$19
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$18
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$17
+instanceKlass com/android/build/gradle/internal/scope/AndroidTask
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$16
+instanceKlass com/android/build/gradle/internal/TaskContainerAdaptor
+instanceKlass com/android/utils/StringHelper
+instanceKlass com/android/prefs/AndroidLocation
+instanceKlass java/security/KeyStore$ProtectionParameter
+instanceKlass org/bouncycastle/jcajce/provider/config/ConfigurableProvider
+instanceKlass sun/security/util/ManifestEntryVerifier$SunProviderHolder
+instanceKlass java/util/Base64$Encoder
+instanceKlass java/util/Base64$Decoder
+instanceKlass java/util/Base64
+instanceKlass java/security/cert/CertPath
+instanceKlass java/security/spec/DSAParameterSpec
+instanceKlass java/security/spec/AlgorithmParameterSpec
+instanceKlass java/security/interfaces/DSAParams
+instanceKlass java/security/interfaces/DSAPrivateKey
+instanceKlass java/security/PrivateKey
+instanceKlass javax/security/auth/Destroyable
+instanceKlass sun/text/normalizer/NormalizerBase$1
+instanceKlass sun/text/normalizer/NormalizerBase$QuickCheckResult
+instanceKlass sun/text/normalizer/NormalizerBase$Mode
+instanceKlass sun/text/normalizer/NormalizerBase
+instanceKlass java/text/Normalizer
+instanceKlass sun/security/pkcs/PKCS9Attribute
+instanceKlass sun/security/x509/AVAKeyword
+instanceKlass sun/security/jca/ServiceId
+instanceKlass java/security/SignatureSpi
+instanceKlass sun/security/pkcs/SignerInfo
+instanceKlass sun/security/x509/RFC822Name
+instanceKlass sun/security/x509/GeneralName
+instanceKlass sun/security/util/MemoryCache$CacheEntry
+instanceKlass sun/security/x509/X509AttributeName
+instanceKlass sun/security/x509/GeneralNames
+instanceKlass sun/security/x509/KeyIdentifier
+instanceKlass sun/security/x509/NetscapeCertTypeExtension$MapEntry
+instanceKlass sun/security/x509/OIDMap$OIDInfo
+instanceKlass sun/security/x509/PKIXExtensions
+instanceKlass sun/security/x509/OIDMap
+instanceKlass sun/security/x509/Extension
+instanceKlass java/security/cert/Extension
+instanceKlass sun/security/x509/CertificateExtensions
+instanceKlass java/security/interfaces/DSAPublicKey
+instanceKlass java/security/interfaces/DSAKey
+instanceKlass java/security/spec/DSAPublicKeySpec
+instanceKlass java/security/KeyFactorySpi
+instanceKlass sun/security/jca/ProviderList$ServiceList$1
+instanceKlass java/security/KeyFactory
+instanceKlass java/security/spec/EncodedKeySpec
+instanceKlass java/security/spec/KeySpec
+instanceKlass sun/security/util/BitArray
+instanceKlass java/security/AlgorithmParametersSpi
+instanceKlass java/security/AlgorithmParameters
+instanceKlass sun/security/x509/X509Key
+instanceKlass java/security/PublicKey
+instanceKlass java/security/Key
+instanceKlass sun/security/x509/CertificateX509Key
+instanceKlass sun/security/x509/CertificateValidity
+instanceKlass sun/security/x509/AVA
+instanceKlass sun/security/x509/RDN
+instanceKlass javax/security/auth/x500/X500Principal
+instanceKlass sun/security/x509/X500Name$1
+instanceKlass sun/security/x509/X500Name
+instanceKlass sun/security/x509/GeneralNameInterface
+instanceKlass sun/security/x509/CertificateAlgorithmId
+instanceKlass sun/security/x509/SerialNumber
+instanceKlass sun/security/x509/CertificateSerialNumber
+instanceKlass sun/security/x509/CertificateVersion
+instanceKlass sun/security/x509/X509CertInfo
+instanceKlass sun/security/x509/CertAttrSet
+instanceKlass sun/security/util/Cache$EqualByteArray
+instanceKlass java/security/cert/X509Extension
+instanceKlass sun/security/util/Cache
+instanceKlass java/security/cert/CertificateFactorySpi
+instanceKlass java/security/cert/CertificateFactory
+instanceKlass sun/security/x509/AlgorithmId
+instanceKlass sun/security/util/ByteArrayTagOrder
+instanceKlass sun/security/util/ByteArrayLexOrder
+instanceKlass sun/security/util/DerEncoder
+instanceKlass sun/security/util/DerValue
+instanceKlass sun/security/util/ObjectIdentifier
+instanceKlass sun/security/pkcs/ContentInfo
+instanceKlass sun/security/util/DerIndefLenConverter
+instanceKlass sun/security/util/DerInputStream
+instanceKlass sun/security/pkcs/PKCS7
+instanceKlass sun/security/util/ManifestDigester$Entry
+instanceKlass sun/security/util/ManifestDigester$Position
+instanceKlass sun/security/util/ManifestDigester
+instanceKlass com/android/ide/common/signing/KeystoreHelper
+instanceKlass java/security/KeyStore$1
+instanceKlass java/security/KeyStore
+instanceKlass com/android/build/gradle/BasePlugin$UnsupportedAction
+instanceKlass com/android/build/gradle/BasePlugin$8
+instanceKlass com/android/build/gradle/BasePlugin$7
+instanceKlass com/android/build/gradle/BasePlugin$6
+instanceKlass com/android/build/gradle/internal/model/NativeModelBuilder
+instanceKlass com/android/build/gradle/internal/NativeLibraryFactoryImpl
+instanceKlass com/android/build/gradle/internal/ConfigurationProviderImpl
+instanceKlass com/android/build/gradle/internal/ConfigurationProvider
+instanceKlass com/android/build/gradle/internal/api/VariantFilter
+instanceKlass com/android/build/gradle/api/VariantFilter
+instanceKlass com/android/build/api/variant/VariantFilter
+instanceKlass com/android/build/gradle/internal/api/ReadOnlyObjectProvider
+instanceKlass com/android/build/gradle/internal/TaskFactory
+instanceKlass com/android/build/gradle/internal/VariantDimensionData
+instanceKlass com/android/build/gradle/internal/VariantManager
+instanceKlass com/android/build/gradle/internal/VariantModel
+instanceKlass com/android/build/gradle/internal/api/BaseVariantImpl
+instanceKlass com/android/build/gradle/internal/variant/TestedVariantData
+instanceKlass com/android/build/gradle/internal/variant/ApplicationVariantFactory
+instanceKlass com/android/build/gradle/internal/scope/GlobalScope
+instanceKlass com/android/build/gradle/internal/scope/TransformGlobalScope
+instanceKlass com/android/build/gradle/internal/scope/AndroidTaskRegistry
+instanceKlass com/android/builder/testing/TestData
+instanceKlass com/android/build/gradle/internal/variant/BaseVariantOutputData
+instanceKlass com/android/build/VariantOutput
+instanceKlass com/android/build/gradle/internal/scope/PackagingScope
+instanceKlass com/android/build/gradle/internal/scope/SupplierTask
+instanceKlass com/android/build/gradle/internal/scope/TransformVariantScope
+instanceKlass com/android/build/api/transform/QualifiedContent$ContentType
+instanceKlass com/android/build/gradle/internal/pipeline/TransformStream
+instanceKlass com/android/build/gradle/internal/scope/TaskConfigAction
+instanceKlass com/android/build/gradle/internal/tasks/FileSupplier
+instanceKlass com/android/builder/dependency/DependencyContainer
+instanceKlass com/android/build/gradle/internal/DependencyManager
+instanceKlass com/android/build/gradle/api/ApplicationVariant
+instanceKlass com/android/build/gradle/internal/api/TestedVariant
+instanceKlass com/android/build/gradle/internal/api/DefaultAndroidSourceFile
+instanceKlass org/gradle/internal/typeconversion/CharSequenceNotationParser
+instanceKlass com/android/build/gradle/internal/api/DefaultAndroidSourceDirectorySet
+instanceKlass com/android/build/gradle/api/AndroidSourceFile
+instanceKlass com/android/build/gradle/api/AndroidSourceDirectorySet
+instanceKlass com/android/build/gradle/internal/api/DefaultAndroidSourceSet
+instanceKlass com/android/build/gradle/BaseExtension$1
+instanceKlass com/android/build/gradle/internal/dsl/AndroidSourceSetFactory
+instanceKlass com/android/build/gradle/api/AndroidSourceSet
+instanceKlass com/google/common/collect/Iterators$2
+instanceKlass com/google/common/collect/PeekingIterator
+instanceKlass com/google/common/collect/Iterators
+instanceKlass com/android/build/gradle/internal/ndk/NdkInfo
+instanceKlass com/android/build/gradle/internal/ndk/NdkHandler
+instanceKlass com/google/common/collect/Hashing
+instanceKlass com/google/common/collect/Platform
+instanceKlass java/util/RegularEnumSet$EnumSetIterator
+instanceKlass com/android/resources/Density$1
+instanceKlass com/android/resources/ResourceEnum
+instanceKlass com/android/build/gradle/internal/dsl/SplitOptions
+instanceKlass com/android/build/gradle/internal/dsl/LanguageSplitOptions
+instanceKlass com/android/build/gradle/internal/dsl/TestOptions$UnitTestOptions
+instanceKlass com/android/build/gradle/internal/dsl/NdkBuildOptions
+instanceKlass com/android/build/gradle/internal/dsl/CmakeOptions
+instanceKlass com/android/build/gradle/internal/model/CoreNdkBuildOptions
+instanceKlass com/android/build/gradle/internal/model/CoreCmakeOptions
+instanceKlass com/android/tools/lint/LintCliFlags
+instanceKlass com/android/tools/lint/client/api/LintClient
+instanceKlass com/google/common/primitives/Ints
+instanceKlass com/android/build/gradle/internal/dsl/ShaderOptions
+instanceKlass com/android/build/gradle/internal/dsl/AnnotationProcessorOptions
+instanceKlass com/android/build/gradle/internal/dsl/CoreAnnotationProcessorOptions
+instanceKlass com/google/common/collect/Sets
+instanceKlass com/android/build/gradle/internal/dsl/ExternalNativeNdkBuildOptions
+instanceKlass com/android/build/gradle/internal/dsl/ExternalNativeCmakeOptions
+instanceKlass com/android/build/gradle/internal/dsl/CoreExternalNativeNdkBuildOptions
+instanceKlass com/android/build/gradle/internal/dsl/CoreExternalNativeCmakeOptions
+instanceKlass com/android/build/gradle/internal/dsl/NdkOptions
+instanceKlass com/android/build/gradle/internal/dsl/JackOptions
+instanceKlass com/android/build/gradle/internal/dsl/ExternalNativeBuildOptions
+instanceKlass com/android/build/gradle/internal/dsl/JavaCompileOptions
+instanceKlass com/android/builder/model/ClassField
+instanceKlass com/android/build/gradle/internal/dsl/CoreNdkOptions
+instanceKlass com/android/build/gradle/internal/dsl/CoreJackOptions
+instanceKlass com/android/build/gradle/internal/dsl/CoreShaderOptions
+instanceKlass com/android/build/gradle/internal/dsl/CoreExternalNativeBuildOptions
+instanceKlass com/android/build/gradle/internal/dsl/CoreJavaCompileOptions
+instanceKlass com/android/builder/model/ApiVersion
+instanceKlass com/android/builder/core/DefaultVectorDrawablesOptions
+instanceKlass com/android/builder/model/VectorDrawablesOptions
+instanceKlass com/android/builder/testing/api/DeviceProvider
+instanceKlass com/android/builder/testing/api/TestServer
+instanceKlass com/android/builder/core/DefaultDexOptions
+instanceKlass com/android/builder/core/DexOptions
+instanceKlass com/android/build/gradle/internal/coverage/JacocoOptions
+instanceKlass com/android/build/gradle/internal/dsl/Splits
+instanceKlass com/android/build/gradle/internal/dsl/AdbOptions
+instanceKlass com/android/builder/model/AdbOptions
+instanceKlass com/android/build/gradle/internal/dsl/TestOptions
+instanceKlass com/android/build/gradle/internal/dsl/DataBindingOptions
+instanceKlass com/android/build/gradle/internal/dsl/LintOptions
+instanceKlass com/android/build/gradle/internal/dsl/AaptOptions
+instanceKlass com/android/build/gradle/internal/dsl/PackagingOptions
+instanceKlass com/android/builder/model/PackagingOptions
+instanceKlass com/android/build/gradle/internal/dsl/ExternalNativeBuild
+instanceKlass com/android/build/gradle/internal/CompileOptions
+instanceKlass com/android/build/api/transform/Transform
+instanceKlass com/android/build/gradle/api/TestVariant
+instanceKlass com/android/build/gradle/api/ApkVariant
+instanceKlass com/android/build/gradle/api/AndroidArtifactVariant
+instanceKlass com/android/build/gradle/api/InstallableVariant
+instanceKlass com/android/build/gradle/api/UnitTestVariant
+instanceKlass com/android/build/gradle/api/BaseVariant
+instanceKlass com/android/build/gradle/internal/model/CoreExternalNativeBuild
+instanceKlass com/android/build/gradle/BaseExtension
+instanceKlass com/android/build/gradle/TestedAndroidConfig
+instanceKlass com/android/build/gradle/internal/dsl/SigningConfigFactory
+instanceKlass com/android/builder/signing/DefaultSigningConfig
+instanceKlass com/android/build/gradle/internal/dsl/CoreSigningConfig
+instanceKlass com/android/build/gradle/internal/dsl/ProductFlavorFactory
+instanceKlass com/android/build/gradle/internal/dsl/CoreProductFlavor
+instanceKlass com/android/builder/model/ProductFlavor
+instanceKlass com/android/builder/model/DimensionAware
+instanceKlass org/gradle/api/internal/DynamicPropertyNamer
+instanceKlass com/android/build/gradle/internal/dsl/BuildTypeFactory
+instanceKlass com/android/builder/internal/BaseConfigImpl
+instanceKlass com/android/build/gradle/internal/dsl/CoreBuildType
+instanceKlass com/android/builder/model/BuildType
+instanceKlass com/android/builder/model/BaseConfig
+instanceKlass com/android/build/gradle/BasePlugin$5
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan$RethrowingFailureHandler
+instanceKlass org/gradle/execution/taskgraph/TaskDependencyGraph
+instanceKlass org/gradle/internal/graph/GraphNodeRenderer
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan
+instanceKlass org/gradle/api/execution/internal/TaskOperationInternal
+instanceKlass org/gradle/execution/taskgraph/TaskExecutionPlan
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskGraphExecuter
+instanceKlass org/gradle/internal/service/scopes/GradleScopeServices$3
+instanceKlass org/gradle/execution/taskgraph/AbstractTaskPlanExecutor
+instanceKlass org/gradle/execution/taskgraph/TaskPlanExecutorFactory
+instanceKlass com/android/build/gradle/internal/LibraryCache
+instanceKlass com/android/build/gradle/BasePlugin$4
+instanceKlass com/android/build/gradle/internal/coverage/JacocoPlugin$4
+instanceKlass com/android/build/gradle/internal/coverage/JacocoPlugin$3
+instanceKlass com/android/build/gradle/internal/coverage/JacocoPlugin$2
+instanceKlass com/android/build/gradle/internal/coverage/JacocoPlugin$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ShortCircuitEmptyConfigurationResolver$EmptyResolvedConfiguration
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/DefaultResolutionResultBuilder$RootFactory
+instanceKlass org/gradle/api/internal/artifacts/result/DefaultResolvedComponentResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/CachingDependencyResultFactory
+instanceKlass org/gradle/api/artifacts/result/UnresolvedDependencyResult
+instanceKlass org/gradle/api/artifacts/result/DependencyResult
+instanceKlass org/gradle/api/artifacts/result/ResolvedComponentResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/DefaultResolutionResultBuilder
+instanceKlass com/android/build/gradle/internal/coverage/JacocoPlugin
+instanceKlass org/gradle/api/plugins/JavaBasePlugin$13
+instanceKlass org/gradle/api/plugins/JavaBasePlugin$12
+instanceKlass org/gradle/api/reporting/Reporting
+instanceKlass org/gradle/api/tasks/VerificationTask
+instanceKlass org/gradle/api/plugins/JavaBasePlugin$11
+instanceKlass org/gradle/api/plugins/JavaBasePlugin$1
+instanceKlass org/gradle/api/plugins/JavaBasePlugin$10
+instanceKlass org/gradle/api/plugins/JavaBasePlugin$9
+instanceKlass org/gradle/api/internal/tasks/DefaultSourceSetContainer$1
+instanceKlass org/gradle/api/tasks/SourceSet
+instanceKlass org/gradle/api/internal/file/DefaultSourceDirectorySetFactory
+instanceKlass org/gradle/api/tasks/SourceSetContainer
+instanceKlass org/gradle/api/java/archives/Manifest
+instanceKlass org/apache/tools/ant/input/InputRequest
+instanceKlass org/apache/tools/ant/Location
+instanceKlass org/apache/tools/ant/types/Reference
+instanceKlass org/apache/tools/ant/types/FilterSet$Filter
+instanceKlass org/apache/tools/ant/types/EnumeratedAttribute
+instanceKlass org/apache/tools/ant/types/FilterSet$FiltersFile
+instanceKlass sun/reflect/generics/tree/ByteSignature
+instanceKlass org/gradle/api/file/FileTreeElement
+instanceKlass java/lang/Throwable$PrintStreamOrWriter
+instanceKlass org/gradle/model/internal/manage/schema/extract/JavaUtilCollectionStrategy$1
+instanceKlass org/gradle/api/component/SoftwareComponent
+instanceKlass org/apache/tools/ant/RuntimeConfigurable
+instanceKlass org/apache/tools/ant/Executor
+instanceKlass org/apache/tools/ant/SubBuildListener
+instanceKlass org/apache/tools/ant/input/InputHandler
+instanceKlass org/gradle/api/file/SourceDirectorySet
+instanceKlass org/apache/tools/ant/Target
+instanceKlass org/apache/tools/ant/TaskContainer
+instanceKlass org/apache/tools/ant/helper/AntXMLContext
+instanceKlass org/apache/tools/ant/Project
+instanceKlass org/gradle/model/internal/manage/schema/extract/ModelMapStrategy$2
+instanceKlass org/gradle/model/internal/type/GenericArrayTypeWrapper
+instanceKlass org/gradle/model/internal/manage/schema/cache/MultiWeakClassSet$2
+instanceKlass org/gradle/model/internal/manage/schema/cache/MultiWeakClassSet$1
+instanceKlass org/gradle/platform/base/BinaryTasksCollection
+instanceKlass org/gradle/platform/base/internal/BinarySpecInternal
+instanceKlass org/gradle/platform/base/plugins/BinaryBasePlugin
+instanceKlass org/gradle/language/base/ProjectSourceSet
+instanceKlass org/gradle/platform/base/internal/builder/TypeBuilderInternal
+instanceKlass org/gradle/model/internal/manage/schema/extract/SpecializedMapNodeInitializer$1
+instanceKlass org/gradle/model/internal/manage/schema/extract/SpecializedMapNodeInitializer$2
+instanceKlass org/gradle/model/internal/manage/schema/extract/SpecializedMapNodeInitializer
+instanceKlass org/gradle/platform/base/internal/registry/ComponentTypeModelRuleExtractor$ComponentTypeRegistrationInfo
+instanceKlass org/gradle/model/internal/manage/schema/extract/StructSchemaExtractionStrategySupport$5
+instanceKlass com/google/common/collect/SortedIterables
+instanceKlass org/gradle/model/internal/core/UnmanagedStruct
+instanceKlass org/gradle/platform/base/Variant
+instanceKlass org/gradle/model/internal/manage/schema/extract/ModelPropertyExtractionResult
+instanceKlass java/util/EnumMap$EntryIterator$Entry
+instanceKlass org/gradle/model/internal/manage/schema/ModelProperty
+instanceKlass java/util/EnumMap$EnumMapIterator
+instanceKlass org/gradle/model/internal/manage/schema/extract/PropertyAccessorExtractionContext
+instanceKlass org/gradle/model/internal/manage/schema/extract/ModelPropertyExtractionContext
+instanceKlass org/gradle/model/internal/manage/schema/extract/SpecializedMapStrategy$2
+instanceKlass org/gradle/platform/base/TypeBuilder
+instanceKlass org/gradle/platform/base/ComponentSpecContainer
+instanceKlass org/gradle/model/internal/manage/schema/extract/NodeInitializerExtractionStrategy
+instanceKlass org/gradle/platform/base/plugins/ComponentBasePlugin
+instanceKlass org/gradle/language/base/plugins/LanguageBasePlugin
+instanceKlass org/gradle/api/reporting/ReportingExtension$1
+instanceKlass org/gradle/api/reporting/ReportingExtension
+instanceKlass org/gradle/api/plugins/ReportingBasePlugin
+instanceKlass org/gradle/model/internal/core/InstanceModelView
+instanceKlass org/gradle/api/plugins/BasePlugin$3$1
+instanceKlass org/gradle/api/plugins/BasePlugin$3
+instanceKlass org/gradle/api/internal/plugins/DefaultArtifactPublicationSet
+instanceKlass org/gradle/internal/Actions$FilteredAction
+instanceKlass org/gradle/api/internal/DefaultNamedDomainObjectCollection$FilteredIndex
+instanceKlass org/gradle/api/internal/tasks/RealizableTaskCollection
+instanceKlass org/gradle/api/plugins/BasePlugin$1$2
+instanceKlass org/gradle/api/plugins/BasePlugin$1$1
+instanceKlass org/gradle/api/plugins/BasePlugin$1
+instanceKlass org/gradle/api/internal/file/copy/CopySpecSource
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/projectmodule/ProjectPublication
+instanceKlass org/gradle/api/plugins/BasePlugin$2
+instanceKlass org/gradle/internal/service/scopes/ProjectScopeServices$3
+instanceKlass org/gradle/api/internal/plugins/AbstractRule
+instanceKlass org/gradle/language/base/plugins/LifecycleBasePlugin$6
+instanceKlass org/gradle/language/base/plugins/LifecycleBasePlugin$4
+instanceKlass org/gradle/language/base/plugins/LifecycleBasePlugin$3
+instanceKlass org/gradle/language/base/plugins/LifecycleBasePlugin$2
+instanceKlass org/gradle/language/base/internal/plugins/CleanRule
+instanceKlass org/gradle/language/base/plugins/LifecycleBasePlugin$5
+instanceKlass org/gradle/language/base/plugins/LifecycleBasePlugin$1
+instanceKlass org/gradle/language/base/plugins/LifecycleBasePlugin
+instanceKlass org/gradle/api/plugins/BasePlugin
+instanceKlass org/gradle/platform/base/internal/toolchain/ToolProvider
+instanceKlass org/gradle/api/internal/tasks/DefaultJavaToolChain
+instanceKlass org/gradle/api/internal/tasks/compile/DefaultJavaCompilerFactory
+instanceKlass org/gradle/api/internal/tasks/compile/JavaHomeBasedJavaCompilerFactory$SystemJavaCompilerFactory
+instanceKlass org/gradle/api/internal/tasks/compile/JavaHomeBasedJavaCompilerFactory$SystemPropertiesJavaHomeFactory
+instanceKlass org/gradle/api/internal/tasks/compile/JavaHomeBasedJavaCompilerFactory$CurrentJvmJavaHomeFactory
+instanceKlass org/gradle/api/internal/tasks/compile/JavaHomeBasedJavaCompilerFactory
+instanceKlass org/gradle/api/internal/tasks/compile/daemon/CompilerDaemonStarter
+instanceKlass org/gradle/api/internal/tasks/compile/daemon/CompilerClientsManager
+instanceKlass org/gradle/api/internal/tasks/compile/daemon/CompilerDaemon
+instanceKlass org/gradle/process/internal/worker/child/ApplicationClassesInSystemClassLoaderWorkerFactory
+instanceKlass org/gradle/process/internal/worker/child/WorkerFactory
+instanceKlass org/gradle/process/internal/worker/WorkerProcessBuilder
+instanceKlass org/gradle/process/internal/worker/MultiRequestWorkerProcessBuilder
+instanceKlass org/gradle/process/internal/worker/SingleRequestWorkerProcessBuilder
+instanceKlass org/gradle/process/internal/worker/WorkerProcessSettings
+instanceKlass org/gradle/process/internal/worker/DefaultWorkerProcessFactory
+instanceKlass org/gradle/process/internal/ExecAction
+instanceKlass org/gradle/process/internal/ExecHandleBuilder
+instanceKlass org/gradle/process/internal/JavaExecAction
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHubBackedServer
+instanceKlass org/gradle/api/tasks/testing/TestListener
+instanceKlass org/gradle/api/plugins/JavaBasePlugin$BridgedBinaries
+instanceKlass org/gradle/api/plugins/JavaBasePlugin
+instanceKlass android/databinding/tool/writer/JavaFileWriter
+instanceKlass android/databinding/tool/DataBindingBuilder
+instanceKlass com/android/ide/common/process/ProcessInfo
+instanceKlass com/android/build/gradle/internal/process/GradleJavaProcessExecutor
+instanceKlass com/android/ide/common/process/ProcessResult
+instanceKlass com/android/build/gradle/internal/process/GradleProcessExecutor
+instanceKlass com/android/repository/Revision
+instanceKlass com/android/io/IAbstractFile
+instanceKlass com/android/io/IAbstractResource
+instanceKlass com/google/common/io/LineProcessor
+instanceKlass com/android/ide/common/process/ProcessOutputHandler
+instanceKlass com/android/jack/api/v02/Api02Config
+instanceKlass com/android/jack/api/v01/Api01Config
+instanceKlass com/android/jack/api/JackConfig
+instanceKlass com/android/builder/internal/compiler/SourceSearcher$SourceFileProcessor
+instanceKlass com/android/builder/core/AndroidBuilder
+instanceKlass org/gradle/internal/event/BroadcastDispatch$ActionInvocationHandler
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass com/android/build/gradle/BasePlugin$$Lambda$15
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/google/common/io/Closeables
+instanceKlass com/android/builder/sdk/SdkLibData
+instanceKlass com/android/repository/api/ProgressIndicator
+instanceKlass com/android/build/gradle/internal/SdkHandler
+instanceKlass com/android/ide/common/blame/Message
+instanceKlass com/android/ide/common/blame/SourceFilePosition
+instanceKlass com/android/ide/common/blame/SourcePosition
+instanceKlass com/google/gson/internal/bind/TypeAdapters$27
+instanceKlass com/google/gson/InstanceCreator
+instanceKlass com/google/gson/JsonDeserializer
+instanceKlass com/google/gson/JsonSerializer
+instanceKlass com/android/ide/common/blame/SourceFile
+instanceKlass com/google/common/collect/ForwardingObject
+instanceKlass com/google/common/collect/AbstractMultimap
+instanceKlass com/android/builder/model/SyncIssue
+instanceKlass com/google/common/collect/ListMultimap
+instanceKlass com/google/common/collect/Multimap
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleTaskExecution$Type$1
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleTransformExecution$Type$1
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleTaskExecutionOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleTransformExecutionOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleBuildProfileSpan$ExecutionType$1
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleBuildVariantOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleBuildProject$PluginGeneration$1
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleBuildProjectMetricsOrBuilder
+instanceKlass com/google/common/collect/GenericMapMaker
+instanceKlass com/google/common/util/concurrent/Uninterruptibles
+instanceKlass com/android/builder/profile/NameAnonymizer$Project
+instanceKlass com/android/builder/profile/ProcessRecorder$Project
+instanceKlass com/google/common/base/Platform
+instanceKlass com/google/common/cache/LocalCache$AbstractReferenceEntry
+instanceKlass com/google/common/base/Stopwatch
+instanceKlass com/google/common/util/concurrent/ExecutionList
+instanceKlass com/google/common/util/concurrent/AbstractFuture
+instanceKlass com/google/common/util/concurrent/ListenableFuture
+instanceKlass com/google/common/cache/LocalCache$LoadingValueReference
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleBuildProject$PluginType$1
+instanceKlass com/android/builder/profile/ThreadRecorder$1
+instanceKlass com/android/builder/profile/ThreadRecorder
+instanceKlass com/android/builder/profile/Recorder
+instanceKlass com/android/build/gradle/internal/profile/RecordingBuildListener
+instanceKlass com/google/common/hash/HashCode
+instanceKlass java/time/chrono/AbstractChronology$$Lambda$14
+instanceKlass java/time/chrono/AbstractChronology$$Lambda$13
+instanceKlass java/time/chrono/AbstractChronology$$Lambda$12
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/time/chrono/AbstractChronology
+instanceKlass java/time/LocalDate$1
+instanceKlass java/time/temporal/TemporalQueries$$Lambda$11
+instanceKlass java/time/temporal/TemporalQueries$$Lambda$10
+instanceKlass java/time/temporal/TemporalQueries$$Lambda$9
+instanceKlass java/time/temporal/TemporalQueries$$Lambda$8
+instanceKlass java/time/temporal/TemporalQueries$$Lambda$7
+instanceKlass java/time/temporal/TemporalQueries$$Lambda$6
+instanceKlass java/time/chrono/Chronology
+instanceKlass java/time/temporal/TemporalQueries$$Lambda$5
+instanceKlass java/time/temporal/TemporalQuery
+instanceKlass java/time/temporal/TemporalQueries
+instanceKlass java/time/LocalTime
+instanceKlass java/time/LocalDateTime
+instanceKlass java/time/chrono/ChronoLocalDateTime
+instanceKlass java/time/zone/ZoneOffsetTransitionRule
+instanceKlass java/time/zone/ZoneRules
+instanceKlass java/time/ZonedDateTime
+instanceKlass java/time/chrono/ChronoZonedDateTime
+instanceKlass com/google/common/hash/AbstractHasher
+instanceKlass com/google/common/hash/Hasher
+instanceKlass com/google/common/hash/PrimitiveSink
+instanceKlass com/google/common/hash/AbstractStreamingHashFunction
+instanceKlass com/google/common/hash/Hashing$Sha256Holder
+instanceKlass com/google/common/hash/HashFunction
+instanceKlass com/google/common/hash/Hashing
+instanceKlass com/google/common/base/Charsets
+instanceKlass com/android/tools/analytics/Anonymizer
+instanceKlass com/android/builder/profile/MemoryStats
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleBuildProfileSpanOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleBuildMemorySampleOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleBuildProjectOrBuilder
+instanceKlass com/google/protobuf/GeneratedMessage$BuilderParent
+instanceKlass com/google/protobuf/AbstractMessageLite$Builder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$InstantRunStatus$VerifierStatus$1
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$InstantRunStatus$PatchingPolicy$1
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$InstantRunStatus$BuildMode$1
+instanceKlass com/google/protobuf/Internal$EnumLiteMap
+instanceKlass com/google/protobuf/ProtocolMessageEnum
+instanceKlass com/google/protobuf/Internal$EnumLite
+instanceKlass com/google/protobuf/UnknownFieldSet
+instanceKlass com/google/protobuf/ExtensionRegistryLite
+instanceKlass com/google/protobuf/AbstractParser
+instanceKlass com/google/protobuf/Message$Builder
+instanceKlass com/google/protobuf/MessageLite$Builder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$InstantRunStatusOrBuilder
+instanceKlass com/google/protobuf/Parser
+instanceKlass com/google/protobuf/GeneratedMessage$ExtensionDescriptorRetriever
+instanceKlass com/google/protobuf/FieldSet$FieldDescriptorLite
+instanceKlass com/google/protobuf/AbstractMessageLite
+instanceKlass com/google/protobuf/Message
+instanceKlass com/google/protobuf/MessageLite
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioStats$GradleBuildProfileOrBuilder
+instanceKlass com/google/protobuf/MessageOrBuilder
+instanceKlass com/google/protobuf/MessageLiteOrBuilder
+instanceKlass com/google/common/cache/RemovalListener
+instanceKlass com/google/common/cache/Weigher
+instanceKlass com/google/common/base/Equivalence
+instanceKlass com/google/common/base/MoreObjects
+instanceKlass com/google/common/cache/LocalCache$StrongValueReference
+instanceKlass com/google/common/cache/LocalCache$1
+instanceKlass com/google/common/cache/LocalCache$ReferenceEntry
+instanceKlass com/google/common/cache/LocalCache$ValueReference
+instanceKlass com/google/common/cache/LocalCache$LocalManualCache
+instanceKlass com/google/common/cache/CacheBuilder$2
+instanceKlass com/google/common/cache/CacheStats
+instanceKlass com/google/common/base/Suppliers$SupplierOfInstance
+instanceKlass com/google/common/base/Suppliers
+instanceKlass com/google/common/cache/CacheBuilder$1
+instanceKlass com/google/common/cache/AbstractCache$StatsCounter
+instanceKlass com/google/common/cache/LoadingCache
+instanceKlass com/google/common/cache/Cache
+instanceKlass com/google/common/base/Ticker
+instanceKlass com/google/common/base/Supplier
+instanceKlass com/google/common/cache/CacheBuilder
+instanceKlass com/android/builder/profile/NameAnonymizer
+instanceKlass com/google/common/cache/CacheLoader
+instanceKlass com/android/builder/profile/ProcessRecorder
+instanceKlass com/android/tools/analytics/UsageTracker
+instanceKlass com/google/gson/internal/Primitives
+instanceKlass com/google/gson/annotations/SerializedName
+instanceKlass com/google/gson/internal/ConstructorConstructor$3
+instanceKlass com/google/gson/internal/$Gson$Types$GenericArrayTypeImpl
+instanceKlass com/google/gson/internal/$Gson$Types
+instanceKlass com/google/gson/internal/$Gson$Preconditions
+instanceKlass com/google/gson/reflect/TypeToken
+instanceKlass com/google/gson/internal/JsonReaderInternalAccess
+instanceKlass com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundField
+instanceKlass com/google/gson/internal/bind/ReflectiveTypeAdapterFactory
+instanceKlass com/google/gson/internal/bind/MapTypeAdapterFactory
+instanceKlass com/google/gson/internal/bind/CollectionTypeAdapterFactory
+instanceKlass com/google/gson/internal/bind/ArrayTypeAdapter$1
+instanceKlass com/google/gson/internal/bind/SqlDateTypeAdapter$1
+instanceKlass com/google/gson/internal/bind/TimeTypeAdapter$1
+instanceKlass com/google/gson/internal/bind/DateTypeAdapter$1
+instanceKlass com/google/gson/internal/bind/ObjectTypeAdapter$1
+instanceKlass com/google/gson/internal/bind/TypeAdapters$26
+instanceKlass com/google/gson/internal/bind/TypeAdapters$30
+instanceKlass com/google/gson/internal/bind/TypeAdapters$22
+instanceKlass com/google/gson/internal/bind/TypeAdapters$31
+instanceKlass com/google/gson/internal/bind/TypeAdapters$29
+instanceKlass com/google/gson/internal/bind/TypeAdapters$28
+instanceKlass com/google/gson/internal/bind/TypeAdapters
+instanceKlass com/google/gson/internal/ObjectConstructor
+instanceKlass com/google/gson/internal/ConstructorConstructor
+instanceKlass com/google/gson/Gson$2
+instanceKlass com/google/gson/Gson$1
+instanceKlass java/util/Collections$SynchronizedMap
+instanceKlass com/google/gson/JsonSerializationContext
+instanceKlass com/google/gson/JsonDeserializationContext
+instanceKlass com/google/gson/stream/JsonReader
+instanceKlass com/google/gson/stream/JsonWriter
+instanceKlass com/google/gson/Gson
+instanceKlass com/google/gson/JsonElement
+instanceKlass com/google/gson/TypeAdapter
+instanceKlass com/google/gson/internal/Excluder
+instanceKlass com/google/gson/TypeAdapterFactory
+instanceKlass com/google/gson/FieldNamingStrategy
+instanceKlass com/google/gson/GsonBuilder
+instanceKlass java/nio/channels/Channels
+instanceKlass java/nio/file/Paths
+instanceKlass com/android/tools/analytics/Environment
+instanceKlass com/android/tools/analytics/AnalyticsPaths
+instanceKlass com/android/utils/DateProvider$1
+instanceKlass com/android/utils/DateProvider
+instanceKlass java/time/temporal/ValueRange
+instanceKlass java/time/Duration
+instanceKlass java/time/temporal/TemporalAmount
+instanceKlass java/time/temporal/TemporalUnit
+instanceKlass java/time/temporal/TemporalField
+instanceKlass java/time/LocalDate
+instanceKlass java/time/chrono/ChronoLocalDate
+instanceKlass com/android/tools/analytics/AnalyticsSettings
+instanceKlass com/google/common/base/Strings
+instanceKlass com/android/builder/profile/ProcessRecorder$ExecutionRecordWriter
+instanceKlass com/android/builder/profile/ProcessRecorderFactory
+instanceKlass com/android/build/gradle/internal/LoggerWrapper
+instanceKlass com/android/build/gradle/internal/profile/ProfilerInitializer
+instanceKlass com/android/build/gradle/AndroidGradleOptions
+instanceKlass com/android/build/gradle/internal/ExecutionConfigurationUtil
+instanceKlass com/android/builder/Version
+instanceKlass com/android/build/gradle/internal/model/DependenciesImpl$$Lambda$4
+instanceKlass com/android/build/gradle/internal/model/DependenciesImpl$$Lambda$3
+instanceKlass com/android/builder/model/JavaLibrary
+instanceKlass com/google/common/base/Joiner$MapJoiner
+instanceKlass com/google/common/base/Joiner
+instanceKlass com/google/common/collect/Multiset
+instanceKlass com/google/common/collect/Collections2
+instanceKlass com/google/common/collect/Maps$EntryTransformer
+instanceKlass com/google/common/base/Converter
+instanceKlass com/google/common/collect/BiMap
+instanceKlass com/google/common/collect/SortedMapDifference
+instanceKlass com/google/common/collect/MapDifference
+instanceKlass com/google/common/collect/ImmutableMap
+instanceKlass com/google/common/base/Function
+instanceKlass com/google/common/collect/Maps
+instanceKlass com/android/build/gradle/internal/model/DependenciesImpl$$Lambda$2
+instanceKlass com/android/ide/common/caching/CreatingCache$ValueFactory
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/build/gradle/internal/model/LibraryImpl
+instanceKlass com/android/builder/model/AndroidLibrary
+instanceKlass com/android/builder/model/AndroidBundle
+instanceKlass com/android/builder/model/Library
+instanceKlass com/android/ide/common/caching/CreatingCache
+instanceKlass com/android/builder/model/MavenCoordinates
+instanceKlass com/android/build/gradle/internal/model/DependenciesImpl
+instanceKlass com/android/build/gradle/internal/variant/BaseVariantData
+instanceKlass com/android/builder/model/AndroidArtifact
+instanceKlass com/android/builder/model/BaseArtifact
+instanceKlass com/android/builder/model/InstantRun
+instanceKlass com/android/build/gradle/internal/scope/InstantRunVariantScope
+instanceKlass com/google/common/collect/ImmutableCollection$Builder
+instanceKlass com/android/builder/model/SigningConfig
+instanceKlass com/android/builder/model/Dependencies
+instanceKlass com/android/builder/model/SourceProvider
+instanceKlass com/android/builder/core/VariantConfiguration
+instanceKlass com/android/builder/model/AaptOptions
+instanceKlass com/android/builder/model/LintOptions
+instanceKlass com/android/build/gradle/internal/model/ModelBuilder
+instanceKlass com/google/common/collect/ObjectArrays
+instanceKlass com/google/common/collect/UnmodifiableIterator
+instanceKlass com/android/ide/common/repository/GradleVersion$VersionSegment
+instanceKlass com/google/common/base/AbstractIterator$1
+instanceKlass com/google/common/collect/CollectPreconditions
+instanceKlass com/google/common/collect/Lists
+instanceKlass com/google/common/base/Splitter$5
+instanceKlass com/google/common/base/AbstractIterator
+instanceKlass com/google/common/base/Splitter$1
+instanceKlass com/google/common/base/Preconditions
+instanceKlass com/google/common/base/CharMatcher
+instanceKlass com/google/common/base/Predicate
+instanceKlass com/google/common/base/Splitter$Strategy
+instanceKlass com/google/common/base/Splitter
+instanceKlass com/android/ide/common/repository/GradleVersion
+instanceKlass com/android/build/gradle/internal/TaskManager
+instanceKlass com/android/build/gradle/internal/variant/VariantFactory
+instanceKlass com/android/build/gradle/internal/model/NativeLibraryFactory
+instanceKlass com/android/build/gradle/AndroidConfig
+instanceKlass com/android/repository/api/Downloader
+instanceKlass com/android/ide/common/process/ProcessExecutor
+instanceKlass com/android/ide/common/process/JavaProcessExecutor
+instanceKlass com/android/builder/core/ErrorReporter
+instanceKlass com/android/ide/common/blame/MessageReceiver
+instanceKlass com/android/builder/core/SyncIssueHandler
+instanceKlass com/android/builder/model/DataBindingOptions
+instanceKlass com/android/repository/api/SettingsController
+instanceKlass com/android/utils/ILogger
+instanceKlass com/android/builder/profile/Recorder$Block
+instanceKlass com/android/build/gradle/BasePlugin
+instanceKlass com/android/build/gradle/internal/ToolingRegistryProvider
+instanceKlass org/gradle/api/internal/plugins/DefaultObjectConfigurationAction$3
+instanceKlass org/gradle/configuration/project/DefaultProjectConfigurationActionContainer
+instanceKlass org/gradle/internal/service/scopes/ProjectScopeServices$2
+instanceKlass org/gradle/model/collection/internal/BridgedCollections$ExtractFromParentContainer
+instanceKlass org/gradle/api/internal/plugins/DslObject
+instanceKlass org/gradle/api/internal/AbstractTask$11
+instanceKlass org/gradle/api/internal/AbstractTask$TaskActionWrapper
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$StandardTaskAction
+instanceKlass org/gradle/api/tasks/Nested
+instanceKlass org/gradle/api/tasks/Input
+instanceKlass org/gradle/api/tasks/InputFiles
+instanceKlass org/gradle/api/tasks/InputDirectory
+instanceKlass org/gradle/api/tasks/InputFile
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$PropertyInfo$3
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$PropertyInfo$2
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$PropertyInfo$1
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$PropertyValue
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$PropertyInfo
+instanceKlass org/gradle/api/internal/project/taskfactory/PropertyActionContext
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$Validator
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$5
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$TaskClassInfo
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskOutputs
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskInputs
+instanceKlass java/util/EventListenerProxy
+instanceKlass org/gradle/api/internal/AbstractTask$1
+instanceKlass java/beans/ChangeListenerMap
+instanceKlass java/beans/PropertyChangeSupport
+instanceKlass org/gradle/api/internal/AbstractTask$8
+instanceKlass org/gradle/api/internal/project/taskfactory/TaskFactory$1
+instanceKlass org/gradle/api/tasks/TaskAction
+instanceKlass org/gradle/api/internal/AbstractTask$TaskInfo
+instanceKlass org/gradle/api/internal/tasks/execution/TaskValidator
+instanceKlass org/gradle/api/specs/CompositeSpec
+instanceKlass org/gradle/api/internal/tasks/TaskStateInternal
+instanceKlass org/gradle/api/internal/tasks/TaskMutator
+instanceKlass org/gradle/api/internal/TaskOutputsInternal
+instanceKlass org/gradle/api/tasks/TaskInputs
+instanceKlass groovy/util/ObservableList
+instanceKlass org/gradle/api/internal/tasks/TaskExecutionContext
+instanceKlass org/gradle/api/tasks/TaskState
+instanceKlass org/gradle/logging/LoggingManagerInternal
+instanceKlass org/gradle/logging/StandardOutputCapture
+instanceKlass org/gradle/api/internal/tasks/ContextAwareTaskAction
+instanceKlass org/gradle/api/tasks/ParallelizableTask
+instanceKlass java/util/AbstractMap$SimpleImmutableEntry
+instanceKlass org/gradle/api/artifacts/cache/ArtifactResolutionControl
+instanceKlass org/gradle/api/internal/artifacts/DefaultArtifactIdentifier
+instanceKlass org/gradle/internal/resource/cached/DefaultCachedArtifact
+instanceKlass org/gradle/internal/resource/cached/ivy/AbstractCachedIndex$1
+instanceKlass org/gradle/internal/resource/cached/ivy/ArtifactAtRepositoryKey
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ContextualArtifactResolver$3
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/DefaultLenientConfiguration$2
+instanceKlass org/gradle/api/tasks/TaskOutputs
+instanceKlass org/gradle/api/internal/file/collections/DefaultFileCollectionResolveContext$FileTreeConverter
+instanceKlass org/gradle/api/internal/file/collections/DefaultFileCollectionResolveContext$FileCollectionConverter
+instanceKlass org/gradle/api/internal/file/collections/DefaultFileCollectionResolveContext$Converter
+instanceKlass org/gradle/api/internal/file/collections/DefaultFileCollectionResolveContext
+instanceKlass org/gradle/api/internal/file/collections/ResolvableFileCollectionResolveContext
+instanceKlass org/gradle/internal/graph/CachingDirectedGraphWalker$NodeDetails
+instanceKlass org/gradle/api/internal/file/collections/FileCollectionResolveContext
+instanceKlass org/apache/commons/collections/iterators/IteratorChain
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ErrorHandlingConfigurationResolver$ErrorHandlingResolvedConfiguration
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/SelfResolvingDependencyConfigurationResolver$FilesAggregatingResolvedConfiguration
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/SelfResolvingDependencyConfigurationResolver$SelfResolvingFilesProvider
+instanceKlass org/gradle/internal/graph/CachingDirectedGraphWalker$GraphWithEmpyEdges
+instanceKlass org/gradle/api/internal/artifacts/CachingDependencyResolveContext$DependencyGraph
+instanceKlass org/gradle/internal/graph/CachingDirectedGraphWalker
+instanceKlass org/gradle/api/internal/artifacts/CachingDependencyResolveContext
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/DefaultResolvedConfiguration
+instanceKlass org/gradle/internal/graph/DirectedGraphWithEdgeValues
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/DefaultLenientConfiguration
+instanceKlass org/gradle/api/artifacts/LenientConfiguration
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/oldresult/ResolvedContentsMapping
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/oldresult/TransientConfigurationResultsLoader
+instanceKlass org/gradle/api/internal/artifacts/DefaultResolvedArtifact
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/DefaultArtifactSet$LazyArtifactSource
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ErrorHandlingConfigurationResolver$ErrorHandlingResolutionResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/oldresult/DefaultResolvedGraphResults
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/projectresult/DefaultResolvedLocalComponentsResult
+instanceKlass org/gradle/api/internal/artifacts/result/DefaultResolutionResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/StreamingResolutionResultBuilder$RootFactory
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/StreamingResolutionResultBuilder$1
+instanceKlass org/gradle/cache/internal/DefaultMultiProcessSafePersistentIndexedCache$4
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/store/DefaultBinaryStore$SimpleBinaryData
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/oldresult/TransientConfigurationResultsBuilder$2
+instanceKlass org/gradle/api/artifacts/ResolvedArtifact
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/DefaultArtifactSet
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ContextualArtifactResolver$4
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ContextualArtifactResolver$2
+instanceKlass org/gradle/internal/component/model/DefaultComponentUsage
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/StreamingResolutionResultBuilder$4
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/StreamingResolutionResultBuilder$3
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/oldresult/TransientConfigurationResultsBuilder$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/StreamingResolutionResultBuilder$2
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphBuilder$2$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/conflicts/DefaultConflictResolutionResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/conflicts/ConflictResolutionResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/strategy/VersionParser$DefaultVersion
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphBuilder$2
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphBuilder$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/conflicts/ConflictContainer$Conflict
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomReader$PomProfileElement
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/data/PomProfile
+instanceKlass org/apache/xerces/util/EncodingMap
+instanceKlass java/util/ArrayList$1
+instanceKlass org/apache/ivy/core/module/id/ArtifactId
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/ResolveIvyFactory$ParentModuleLookupResolver$5
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/ResolveIvyFactory$ParentModuleLookupResolver$3
+instanceKlass org/gradle/internal/resolve/result/DefaultBuildableArtifactSetResolveResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/ResolveIvyFactory$ParentModuleLookupResolver$2
+instanceKlass org/gradle/internal/component/model/DefaultDependencyMetaData
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/CachingModuleComponentRepository$CachingModuleSource
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolutionstrategy/DefaultCachePolicy$AbstractResolutionControl
+instanceKlass org/gradle/api/artifacts/cache/ModuleResolutionControl
+instanceKlass org/gradle/api/artifacts/cache/ResolutionControl
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/dynamicversions/DefaultResolvedModuleVersion
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/DefaultCachedMetaData
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/IvyXmlModuleDescriptorParser$2
+instanceKlass org/apache/xerces/parsers/AbstractSAXParser$LocatorProxy
+instanceKlass org/apache/xerces/util/ErrorHandlerWrapper
+instanceKlass org/apache/xerces/parsers/AbstractSAXParser$AttributesProxy
+instanceKlass org/xml/sax/ext/Attributes2
+instanceKlass org/xml/sax/ext/Locator2
+instanceKlass org/xml/sax/helpers/LocatorImpl
+instanceKlass org/xml/sax/AttributeList
+instanceKlass org/xml/sax/DocumentHandler
+instanceKlass org/xml/sax/XMLReader
+instanceKlass org/xml/sax/Parser
+instanceKlass org/apache/xerces/xs/PSVIProvider
+instanceKlass javax/xml/parsers/SAXParserFactory
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/IvyXmlModuleDescriptorParser$ParserHelper
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/IvyXmlModuleDescriptorParser$Parser$1
+instanceKlass org/apache/ivy/core/module/descriptor/ConfigurationAware
+instanceKlass org/gradle/internal/component/external/model/IvyModuleResolveMetaData
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/IvyXmlModuleDescriptorParser$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/CachedModuleDescriptorParseContext
+instanceKlass org/apache/tools/ant/taskdefs/condition/Os
+instanceKlass org/apache/tools/ant/taskdefs/condition/Condition
+instanceKlass org/apache/tools/ant/types/resources/Appendable
+instanceKlass org/apache/tools/ant/types/ResourceFactory
+instanceKlass org/apache/tools/ant/types/resources/FileProvider
+instanceKlass org/apache/tools/ant/ProjectComponent
+instanceKlass org/apache/tools/ant/types/ResourceCollection
+instanceKlass org/apache/tools/ant/types/resources/Touchable
+instanceKlass org/apache/tools/ant/util/FileUtils
+instanceKlass org/gradle/cache/internal/btree/BTreePersistentIndexedCache$Lookup
+instanceKlass org/gradle/cache/internal/btree/BTreePersistentIndexedCache$IndexEntry
+instanceKlass org/gradle/cache/internal/DefaultMultiProcessSafePersistentIndexedCache$1
+instanceKlass org/gradle/cache/internal/btree/BTreePersistentIndexedCache$IndexRoot
+instanceKlass org/gradle/cache/internal/btree/BlockPointer
+instanceKlass org/gradle/cache/internal/btree/FreeListBlockStore$2
+instanceKlass org/gradle/cache/internal/btree/FreeListBlockStore$1
+instanceKlass org/gradle/cache/internal/btree/BTreePersistentIndexedCache$2
+instanceKlass org/gradle/cache/internal/btree/BTreePersistentIndexedCache$1
+instanceKlass org/gradle/cache/internal/btree/FreeListBlockStore
+instanceKlass org/gradle/cache/internal/btree/StateCheckBlockStore
+instanceKlass org/apache/commons/collections/OrderedMapIterator
+instanceKlass org/apache/commons/collections/OrderedIterator
+instanceKlass org/apache/commons/collections/OrderedMap
+instanceKlass org/apache/commons/collections/BoundedMap
+instanceKlass org/gradle/cache/internal/btree/Block
+instanceKlass org/gradle/cache/internal/btree/FileBackedBlockStore
+instanceKlass org/gradle/cache/internal/btree/CachingBlockStore
+instanceKlass org/gradle/cache/internal/btree/BlockStore
+instanceKlass org/gradle/cache/internal/btree/BlockPayload
+instanceKlass org/gradle/cache/internal/btree/BlockStore$Factory
+instanceKlass org/gradle/cache/internal/btree/BTreePersistentIndexedCache
+instanceKlass org/gradle/cache/internal/DefaultMultiProcessSafePersistentIndexedCache$5
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/DefaultModuleMetaDataCache$RevisionKey
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/ModuleDescriptorCacheEntry
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/ModuleDescriptorCacheEntrySerializer
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/DefaultModuleMetaDataCache$RevisionKeySerializer
+instanceKlass org/gradle/internal/component/model/AbstractModuleDescriptorBackedMetaData$DefaultConfigurationMetaData
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/RepositoryChainModuleSource
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/RepositoryChainModuleResolution
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/RepositoryChainComponentMetaDataResolver$1
+instanceKlass org/gradle/api/internal/artifacts/DefaultComponentSelection
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/MetadataProvider
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/memcache/CachedModuleVersionResult
+instanceKlass org/gradle/api/internal/artifacts/repositories/resolver/ComponentMetadataDetailsAdapter
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/data/MavenDependencyKey
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomReader$PomDependencyMgtElement
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/data/PomDependencyMgt
+instanceKlass org/apache/ivy/core/module/descriptor/License
+instanceKlass org/apache/ivy/core/settings/IvySettings$2
+instanceKlass org/apache/ivy/core/module/id/ModuleId
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/IvyUtil
+instanceKlass org/apache/ivy/core/module/status/Status
+instanceKlass org/apache/ivy/core/module/status/StatusManager
+instanceKlass org/apache/ivy/plugins/parser/AbstractModuleDescriptorParser
+instanceKlass org/apache/ivy/core/module/descriptor/DefaultModuleDescriptor
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/GradlePomModuleDescriptorBuilder$5
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/GradlePomModuleDescriptorBuilder$4
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/GradlePomModuleDescriptorBuilder$3
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/GradlePomModuleDescriptorBuilder$2
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/GradlePomModuleDescriptorBuilder$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/GradlePomModuleDescriptorBuilder$ConfMapper
+instanceKlass org/apache/ivy/plugins/parser/ModuleDescriptorParser
+instanceKlass org/apache/ivy/core/module/descriptor/DependencyArtifactDescriptor
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/GradlePomModuleDescriptorBuilder
+instanceKlass org/apache/xerces/dom/NodeListCache
+instanceKlass org/apache/xerces/dom/CharacterDataImpl$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomDomParser
+instanceKlass org/apache/xerces/dom/NamedNodeMapImpl
+instanceKlass org/apache/xerces/impl/Constants$ArrayEnumeration
+instanceKlass org/apache/xerces/impl/Constants
+instanceKlass org/apache/ivy/plugins/parser/m2/PomReader
+instanceKlass org/apache/xerces/impl/dtd/XMLContentSpec
+instanceKlass org/apache/xerces/impl/dtd/DTDGrammar$QNameHashtable
+instanceKlass org/apache/xerces/impl/dtd/models/MixedContentModel
+instanceKlass org/apache/xerces/impl/dtd/models/ContentModelValidator
+instanceKlass org/apache/xerces/impl/dtd/models/CMNode
+instanceKlass org/apache/xerces/dom/DeferredDocumentImpl$RefCount
+instanceKlass org/w3c/dom/traversal/NodeIterator
+instanceKlass org/w3c/dom/ranges/Range
+instanceKlass org/w3c/dom/events/MutationEvent
+instanceKlass org/w3c/dom/events/Event
+instanceKlass org/w3c/dom/traversal/TreeWalker
+instanceKlass org/w3c/dom/DocumentFragment
+instanceKlass org/w3c/dom/Comment
+instanceKlass org/w3c/dom/CDATASection
+instanceKlass org/w3c/dom/Text
+instanceKlass org/w3c/dom/ProcessingInstruction
+instanceKlass org/w3c/dom/DOMConfiguration
+instanceKlass org/w3c/dom/DocumentType
+instanceKlass org/w3c/dom/Notation
+instanceKlass org/apache/xerces/util/XMLSymbols
+instanceKlass org/apache/xerces/util/XMLChar
+instanceKlass org/apache/xerces/util/URI
+instanceKlass org/apache/xerces/xni/parser/XMLInputSource
+instanceKlass org/apache/xerces/impl/ExternalSubsetResolver
+instanceKlass org/apache/xerces/util/EntityResolverWrapper
+instanceKlass org/xml/sax/ext/EntityResolver2
+instanceKlass org/apache/xerces/impl/msg/XMLMessageFormatter
+instanceKlass org/apache/xerces/impl/XMLVersionDetector
+instanceKlass org/apache/xerces/impl/validation/ValidationManager
+instanceKlass org/apache/xerces/impl/dv/dtd/NMTOKENDatatypeValidator
+instanceKlass org/apache/xerces/impl/dv/dtd/NOTATIONDatatypeValidator
+instanceKlass org/apache/xerces/impl/dv/dtd/ENTITYDatatypeValidator
+instanceKlass org/apache/xerces/impl/dv/dtd/ListDatatypeValidator
+instanceKlass org/apache/xerces/impl/dv/dtd/IDREFDatatypeValidator
+instanceKlass org/apache/xerces/impl/dv/dtd/IDDatatypeValidator
+instanceKlass org/apache/xerces/impl/dv/dtd/StringDatatypeValidator
+instanceKlass org/apache/xerces/impl/dv/DatatypeValidator
+instanceKlass org/apache/xerces/impl/dv/SecuritySupport$3
+instanceKlass org/apache/xerces/impl/dv/SecuritySupport$2
+instanceKlass org/apache/xerces/impl/dv/SecuritySupport$1
+instanceKlass org/apache/xerces/impl/dv/SecuritySupport
+instanceKlass org/apache/xerces/impl/dv/ObjectFactory
+instanceKlass org/apache/xerces/impl/dv/DTDDVFactory
+instanceKlass org/apache/xerces/impl/dtd/DTDGrammarBucket
+instanceKlass org/apache/xerces/impl/dtd/XMLAttributeDecl
+instanceKlass org/apache/xerces/impl/dtd/XMLSimpleType
+instanceKlass org/apache/xerces/impl/dtd/XMLElementDecl
+instanceKlass org/apache/xerces/impl/validation/ValidationState
+instanceKlass org/apache/xerces/impl/dv/ValidationContext
+instanceKlass org/apache/xerces/impl/dtd/DTDGrammar
+instanceKlass org/apache/xerces/xni/grammars/Grammar
+instanceKlass org/apache/xerces/impl/validation/EntityState
+instanceKlass org/apache/xerces/impl/dtd/XMLEntityDecl
+instanceKlass org/apache/xerces/impl/XMLDocumentScannerImpl$TrailingMiscDispatcher
+instanceKlass org/apache/xerces/impl/XMLDocumentScannerImpl$DTDDispatcher
+instanceKlass org/apache/xerces/impl/XMLDocumentScannerImpl$PrologDispatcher
+instanceKlass org/apache/xerces/impl/XMLDocumentScannerImpl$XMLDeclDispatcher
+instanceKlass org/apache/xerces/util/NamespaceSupport
+instanceKlass org/apache/xerces/util/XMLAttributesImpl$Attribute
+instanceKlass org/apache/xerces/util/XMLAttributesImpl
+instanceKlass org/apache/xerces/impl/XMLDocumentFragmentScannerImpl$FragmentContentDispatcher
+instanceKlass org/apache/xerces/xni/QName
+instanceKlass org/apache/xerces/impl/XMLDocumentFragmentScannerImpl$ElementStack
+instanceKlass org/apache/xerces/xni/grammars/XMLDTDDescription
+instanceKlass org/apache/xerces/xni/grammars/XMLGrammarDescription
+instanceKlass org/apache/xerces/impl/XMLDocumentFragmentScannerImpl$Dispatcher
+instanceKlass org/apache/xerces/xni/XMLAttributes
+instanceKlass org/apache/xerces/xni/XMLString
+instanceKlass org/apache/xerces/impl/XMLErrorReporter
+instanceKlass org/apache/xerces/impl/XMLEntityManager$CharacterBuffer
+instanceKlass org/apache/xerces/impl/XMLEntityManager$CharacterBufferPool
+instanceKlass org/apache/xerces/impl/XMLEntityManager$ByteBufferPool
+instanceKlass org/apache/xerces/util/AugmentationsImpl$AugmentationsItemsContainer
+instanceKlass org/apache/xerces/util/AugmentationsImpl
+instanceKlass org/apache/xerces/util/XMLResourceIdentifierImpl
+instanceKlass org/apache/xerces/impl/XMLEntityManager$1
+instanceKlass org/apache/xerces/xni/Augmentations
+instanceKlass org/apache/xerces/impl/XMLEntityScanner
+instanceKlass org/apache/xerces/xni/XMLResourceIdentifier
+instanceKlass org/apache/xerces/impl/XMLEntityManager$Entity
+instanceKlass org/apache/xerces/impl/XMLEntityManager
+instanceKlass org/apache/xerces/util/SymbolTable$Entry
+instanceKlass org/apache/xerces/xni/grammars/XMLGrammarPool
+instanceKlass org/apache/xerces/util/SymbolTable
+instanceKlass org/apache/xerces/xni/NamespaceContext
+instanceKlass org/apache/xerces/xni/XMLLocator
+instanceKlass org/apache/xerces/util/MessageFormatter
+instanceKlass org/apache/xerces/impl/dtd/XMLDTDValidator
+instanceKlass org/apache/xerces/impl/dtd/XMLDTDValidatorFilter
+instanceKlass org/apache/xerces/xni/parser/XMLDocumentScanner
+instanceKlass org/apache/xerces/xni/grammars/XMLGrammarLoader
+instanceKlass org/apache/xerces/impl/dtd/XMLDTDProcessor
+instanceKlass org/apache/xerces/xni/parser/XMLDTDContentModelFilter
+instanceKlass org/apache/xerces/xni/parser/XMLDTDFilter
+instanceKlass org/apache/xerces/impl/XMLScanner
+instanceKlass org/apache/xerces/impl/XMLEntityHandler
+instanceKlass org/apache/xerces/xni/parser/XMLDTDScanner
+instanceKlass org/apache/xerces/xni/parser/XMLDTDContentModelSource
+instanceKlass org/apache/xerces/util/ParserConfigurationSettings
+instanceKlass org/apache/xerces/parsers/XML11Configurable
+instanceKlass org/apache/xerces/xni/parser/XMLPullParserConfiguration
+instanceKlass org/apache/xerces/xni/parser/XMLParserConfiguration
+instanceKlass org/apache/xerces/parsers/SecuritySupport$6
+instanceKlass org/apache/xerces/parsers/SecuritySupport$7
+instanceKlass org/apache/xerces/parsers/SecuritySupport$4
+instanceKlass org/apache/xerces/parsers/SecuritySupport$3
+instanceKlass org/apache/xerces/parsers/SecuritySupport$2
+instanceKlass org/apache/xerces/parsers/SecuritySupport$1
+instanceKlass org/apache/xerces/parsers/SecuritySupport
+instanceKlass org/apache/xerces/parsers/ObjectFactory
+instanceKlass org/apache/xerces/xni/parser/XMLEntityResolver
+instanceKlass org/apache/xerces/xni/parser/XMLErrorHandler
+instanceKlass org/w3c/dom/EntityReference
+instanceKlass org/w3c/dom/DOMError
+instanceKlass org/w3c/dom/ranges/DocumentRange
+instanceKlass org/w3c/dom/events/DocumentEvent
+instanceKlass org/w3c/dom/traversal/DocumentTraversal
+instanceKlass org/apache/xerces/dom/DeferredNode
+instanceKlass org/w3c/dom/Entity
+instanceKlass org/apache/xerces/dom/NodeImpl
+instanceKlass org/w3c/dom/events/EventTarget
+instanceKlass org/w3c/dom/CharacterData
+instanceKlass org/apache/xerces/xs/XSSimpleTypeDefinition
+instanceKlass org/apache/xerces/xs/XSTypeDefinition
+instanceKlass org/apache/xerces/xs/XSObject
+instanceKlass org/apache/xerces/xs/ItemPSVI
+instanceKlass org/apache/xerces/jaxp/TeeXMLDocumentFilterImpl
+instanceKlass org/apache/xerces/impl/xs/XMLSchemaValidator
+instanceKlass org/apache/xerces/impl/RevalidationHandler
+instanceKlass org/apache/xerces/impl/xs/identity/FieldActivator
+instanceKlass org/apache/xerces/xni/parser/XMLDocumentFilter
+instanceKlass org/apache/xerces/xni/parser/XMLDocumentSource
+instanceKlass org/apache/xerces/xni/parser/XMLComponent
+instanceKlass org/apache/xerces/xni/parser/XMLComponentManager
+instanceKlass org/apache/xerces/xni/parser/XMLDTDSource
+instanceKlass org/apache/xerces/parsers/XMLParser
+instanceKlass org/apache/xerces/xni/XMLDTDContentModelHandler
+instanceKlass org/apache/xerces/xni/XMLDTDHandler
+instanceKlass org/apache/xerces/xni/XMLDocumentHandler
+instanceKlass org/apache/xerces/jaxp/JAXPConstants
+instanceKlass javax/xml/parsers/DocumentBuilder
+instanceKlass javax/xml/parsers/FactoryFinder$1
+instanceKlass javax/xml/parsers/SecuritySupport$5
+instanceKlass javax/xml/parsers/SecuritySupport$2
+instanceKlass javax/xml/parsers/SecuritySupport
+instanceKlass javax/xml/parsers/FactoryFinder
+instanceKlass javax/xml/parsers/DocumentBuilderFactory
+instanceKlass javax/xml/parsers/SAXParser
+instanceKlass org/apache/ivy/util/XMLHelper
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomReader$2
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomReader$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/RootPomParent
+instanceKlass org/gradle/internal/resolve/result/BuildableArtifactResolveResult
+instanceKlass org/gradle/internal/resolve/result/ArtifactResolveResult
+instanceKlass org/gradle/api/internal/artifacts/repositories/resolver/ExternalResourceResolverDescriptorParseContext
+instanceKlass org/gradle/internal/resource/local/AbstractLocallyAvailableResource
+instanceKlass org/gradle/internal/resource/metadata/ExternalResourceMetaData
+instanceKlass org/gradle/internal/resource/AbstractExternalResource
+instanceKlass org/gradle/api/internal/artifacts/repositories/resolver/DefaultExternalResourceArtifactResolver$1
+instanceKlass org/gradle/internal/resource/local/CompositeLocallyAvailableResourceFinder$CompositeLocallyAvailableResourceCandidates
+instanceKlass org/gradle/internal/resource/local/LocallyAvailableResourceFinderSearchableFileStoreAdapter$1$1
+instanceKlass org/gradle/internal/resource/local/LazyLocallyAvailableResourceCandidates
+instanceKlass org/gradle/internal/component/model/DefaultModuleDescriptorArtifactMetaData
+instanceKlass org/gradle/internal/component/external/model/DefaultModuleComponentArtifactIdentifier
+instanceKlass org/gradle/api/artifacts/ArtifactIdentifier
+instanceKlass org/gradle/internal/component/external/model/DefaultModuleComponentArtifactMetaData
+instanceKlass org/gradle/internal/component/model/DefaultIvyArtifactName
+instanceKlass org/gradle/internal/resource/transfer/CacheAwareExternalResourceAccessor$ResourceFileStore
+instanceKlass org/gradle/api/internal/artifacts/repositories/resolver/DefaultExternalResourceArtifactResolver
+instanceKlass org/gradle/internal/resolve/result/BuildableModuleComponentMetaDataResolveResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/ComponentMetaDataResolveState
+instanceKlass org/gradle/internal/component/model/DefaultComponentOverrideMetadata
+instanceKlass org/gradle/internal/component/model/ComponentOverrideMetadata
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/conflicts/PotentialConflictFactory$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/conflicts/PotentialConflict
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/conflicts/PotentialConflictFactory
+instanceKlass org/gradle/internal/component/external/model/DefaultModuleComponentIdentifier
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/strategy/AbstractVersionSelector
+instanceKlass org/gradle/api/artifacts/component/ProjectComponentSelector
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/dependencysubstitution/DefaultDependencySubstitution
+instanceKlass org/gradle/internal/resolve/result/BuildableComponentIdResolveResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphBuilder$ModuleVersionSelectorResolveState
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphBuilder$DependencyEdge
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphEdge
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/excludes/AbstractModuleExcludeRuleFilter
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/excludes/ModuleExcludeRuleFilter
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/excludes/ModuleExcludeRuleFilters
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphBuilder$DirectDependencyForcingResolver
+instanceKlass org/gradle/api/internal/artifacts/ResolvedConfigurationIdentifier
+instanceKlass org/gradle/internal/resolve/result/ComponentIdResolveResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphBuilder$ModuleVersionResolveState
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/ComponentResolutionState
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphBuilder$ModuleResolveState
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphBuilder$ResolveState
+instanceKlass org/gradle/internal/component/local/model/DslOriginDependencyMetaDataWrapper
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/moduleconverter/dependencies/AbstractIvyDependencyDescriptorFactory$1
+instanceKlass org/gradle/internal/component/model/LocalComponentDependencyMetaData
+instanceKlass org/gradle/internal/component/external/model/DefaultModuleComponentSelector
+instanceKlass org/gradle/api/internal/artifacts/DefaultModuleVersionSelector
+instanceKlass org/gradle/api/artifacts/ProjectDependency
+instanceKlass org/gradle/api/artifacts/SelfResolvingDependency
+instanceKlass org/gradle/api/internal/collections/FilteredCollection$FilteringIterator
+instanceKlass org/gradle/api/internal/collections/FilteredCollection
+instanceKlass org/gradle/internal/component/local/model/DefaultLocalComponentMetaData$DefaultLocalConfigurationMetaData
+instanceKlass org/gradle/internal/component/local/model/LocalConfigurationMetaData
+instanceKlass org/gradle/api/internal/artifacts/configurations/Configurations
+instanceKlass org/gradle/internal/component/model/ConfigurationMetaData
+instanceKlass org/gradle/internal/component/local/model/DefaultLocalComponentMetaData
+instanceKlass org/gradle/api/internal/artifacts/DefaultModuleIdentifier
+instanceKlass org/gradle/api/internal/artifacts/DefaultModuleVersionIdentifier
+instanceKlass org/gradle/internal/component/local/model/DefaultProjectComponentIdentifier
+instanceKlass org/gradle/api/artifacts/component/ProjectComponentIdentifier
+instanceKlass org/gradle/api/internal/artifacts/ProjectBackedModule
+instanceKlass org/gradle/internal/resolve/result/DefaultResourceAwareResolveResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactSet
+instanceKlass org/gradle/internal/resolve/result/BuildableArtifactSetResolveResult
+instanceKlass org/gradle/internal/resolve/result/ArtifactSetResolveResult
+instanceKlass org/gradle/internal/component/model/ComponentUsage
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvedArtifactsGraphVisitor
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ContextualArtifactResolver
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/ErrorHandlingArtifactResolver

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="?android:attr/colorPressedHighlight"
+    android:weightSum="1">
+
+    <TextView
+        android:text="No"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/no"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:background="@drawable/border_style"
+
+        />
+
+    <TextView
+        android:text="Exam Name"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:id="@+id/h_name"
+        android:background="@drawable/border_style"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:text="Date"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/h_calories"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/border_style"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:text="Info"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/h_fat"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/border_style"
+        android:textAlignment="center"
+        />
+</LinearLayout>
